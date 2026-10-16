@@ -9,11 +9,12 @@
 <style>
   :root {
     --proposed: #2ecc40;
-    --consideration: #3498db;
-    --approved: #ff9800;
+    --permitted: #ff9800;
     --construction: #e74c3c;
-    --completed: #8e44ad;
-    --stopped: #999;
+    --operational: #8e44ad;
+    --stalled: #95a5a6;
+    --cancelled: #bdc3c7;
+    --unknown: #7f8c8d;
     --bg: #f5f6fa;
     --card-bg: #fff;
     --text: #222;
@@ -40,24 +41,31 @@
   #detail { display: none; max-width: 900px; margin: 16px auto; padding: 20px 24px; background: var(--card-bg); border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,.08); }
   #detail.open { display: block; }
   #detail h2 { font-size: 1.15rem; margin-bottom: 2px; }
-  #detail .developer { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 8px; }
+  #detail .operator { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 8px; }
   .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; color: var(--badge-text); text-transform: uppercase; letter-spacing: .4px; }
   .badge-proposed       { background: var(--proposed); }
-  .badge-consideration  { background: var(--consideration); }
-  .badge-approved       { background: var(--approved); }
-  .badge-construction   { background: var(--construction); }
-  .badge-completed      { background: var(--completed); }
-  .badge-stopped        { background: var(--stopped); }
+  .badge-permitted      { background: var(--permitted); }
+  .badge-under_construction { background: var(--construction); }
+  .badge-operational    { background: var(--operational); }
+  .badge-stalled        { background: var(--stalled); }
+  .badge-cancelled      { background: var(--cancelled); color: #555; }
+  .badge-unknown        { background: var(--unknown); }
   #detail .meta { margin: 10px 0; font-size: 0.9rem; color: var(--text-muted); }
   #detail .meta span { margin-right: 18px; }
+  #detail .notes { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
   #detail .regulatory { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
 
   #detail h3 { font-size: 0.95rem; margin: 16px 0 6px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+  .timeline { list-style: none; padding-left: 0; }
+  .timeline li { position: relative; padding: 6px 0 6px 20px; font-size: 0.88rem; line-height: 1.5; border-left: 2px solid var(--border); margin-left: 6px; }
+  .timeline li::before { content: ''; position: absolute; left: -5px; top: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--permitted); }
+  .timeline .date { font-weight: 600; }
 
   .sources-list { list-style: none; padding-left: 0; }
   .sources-list li { padding: 4px 0; font-size: 0.88rem; }
-  .sources-list a { color: #2563eb; text-decoration: none; word-break: break-all; }
+  .sources-list a { color: #2563eb; text-decoration: none; }
   .sources-list a:hover { text-decoration: underline; }
+  .sources-list .pub { color: var(--text-muted); font-size: 0.82rem; }
 
   #no-detail { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 0.95rem; }
 
@@ -79,14 +87,13 @@
     <option value="AL">Alabama</option>
     <option value="GA">Georgia</option>
   </select>
-  <label>Stage:</label>
-  <button class="stage-btn active" data-stage="all">All</button>
-  <button class="stage-btn" data-stage="proposed">Proposed</button>
-  <button class="stage-btn" data-stage="consideration">Under Consideration</button>
-  <button class="stage-btn" data-stage="approved">Approved</button>
-  <button class="stage-btn" data-stage="construction">Construction</button>
-  <button class="stage-btn" data-stage="completed">Completed</button>
-  <button class="stage-btn" data-stage="stopped">Stopped</button>
+  <label>Status:</label>
+  <button class="status-btn active" data-status="all">All</button>
+  <button class="status-btn" data-status="proposed">Proposed</button>
+  <button class="status-btn" data-status="permitted">Permitted</button>
+  <button class="status-btn" data-status="under_construction">Construction</button>
+  <button class="status-btn" data-status="operational">Operational</button>
+  <button class="status-btn" data-status="stalled">Stalled</button>
 </div>
 
 <div id="map"></div>
@@ -99,31 +106,24 @@
 </footer>
 
 <script>
-const STAGE_MAP = {
-  'Proposed': 'proposed',
-  'Under Consideration': 'consideration',
-  'Approved, Not Built': 'approved',
-  'Construction in Progress': 'construction',
-  'Completed': 'completed',
-  'Stopped or Paused': 'stopped'
-};
-
-const STAGE_COLOR = {
+const STATUS_COLOR = {
   proposed: '#2ecc40',
-  consideration: '#3498db',
-  approved: '#ff9800',
-  construction: '#e74c3c',
-  completed: '#8e44ad',
-  stopped: '#999'
+  permitted: '#ff9800',
+  under_construction: '#e74c3c',
+  operational: '#8e44ad',
+  stalled: '#95a5a6',
+  cancelled: '#bdc3c7',
+  unknown: '#7f8c8d'
 };
 
-const STAGE_LABEL = {
+const STATUS_LABEL = {
   proposed: 'Proposed',
-  consideration: 'Under Consideration',
-  approved: 'Approved, Not Built',
-  construction: 'Construction in Progress',
-  completed: 'Completed',
-  stopped: 'Stopped / Paused'
+  permitted: 'Permitted',
+  under_construction: 'Under Construction',
+  operational: 'Operational',
+  stalled: 'Stalled / Paused',
+  cancelled: 'Cancelled',
+  unknown: 'Unknown'
 };
 
 function markerIcon(color) {
@@ -147,8 +147,9 @@ function initMap() {
   const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = Object.entries(STAGE_COLOR).map(([key, color]) =>
-      `<div><span class="legend-dot" style="background:${color}"></span>${STAGE_LABEL[key]}</div>`
+    const show = ['proposed','permitted','under_construction','operational','stalled'];
+    div.innerHTML = show.map(s =>
+      `<div><span class="legend-dot" style="background:${STATUS_COLOR[s]}"></span>${STATUS_LABEL[s]}</div>`
     ).join('');
     return div;
   };
@@ -160,50 +161,94 @@ function renderMarkers() {
   markers = [];
 
   const stateVal = document.getElementById('stateFilter').value;
-  const stageBtn = document.querySelector('.stage-btn.active');
-  const stageVal = stageBtn ? stageBtn.dataset.stage : 'all';
+  const statusBtn = document.querySelector('.status-btn.active');
+  const statusVal = statusBtn ? statusBtn.dataset.status : 'all';
 
   facilities.forEach(f => {
-    const mapped = STAGE_MAP[f.stage] || 'stopped';
-    if (!f.lat || !f.lon) return;
-    if (stateVal !== 'all' && f.state !== stateVal) return;
-    if (stageVal !== 'all' && mapped !== stageVal) return;
+    const st = f.status || 'unknown';
+    if (st === 'cancelled') return;
+    if (!f.location || !f.location.lat || !f.location.lon) return;
+    if (stateVal !== 'all' && f.location.state !== stateVal) return;
+    if (statusVal !== 'all' && st !== statusVal) return;
 
-    const color = STAGE_COLOR[mapped] || '#999';
-    const m = L.marker([f.lat, f.lon], { icon: markerIcon(color) });
+    const color = STATUS_COLOR[st] || STATUS_COLOR.unknown;
+    const m = L.marker([f.location.lat, f.location.lon], { icon: markerIcon(color) });
     m.on('click', () => showDetail(f));
     m.addTo(map);
     markers.push(m);
   });
 }
 
+function fmtMoney(n) {
+  if (!n) return null;
+  if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return '$' + (n / 1e6).toFixed(0) + 'M';
+  return '$' + n.toLocaleString();
+}
+
+function fmtMw(obj) {
+  if (!obj) return null;
+  const v = obj.planned || obj.operational || obj.underConstruction;
+  if (!v) return null;
+  return v + ' MW';
+}
+
 function showDetail(f) {
-  const mapped = STAGE_MAP[f.stage] || 'stopped';
+  const st = f.status || 'unknown';
   const el = document.getElementById('detail');
   document.getElementById('no-detail').style.display = 'none';
 
-  let metaHtml = `<span>${escHtml(f.cityCounty)}, ${escHtml(f.state)}</span>`;
+  const loc = f.location || {};
+  const county = loc.county ? loc.county + ' County' : '';
+  const city = loc.city || '';
+  const parts = [city, county, loc.state].filter(Boolean);
+  const locStr = parts.join(', ');
+
+  const mw = fmtMw(f.capacityMw);
+  const inv = fmtMoney(f.investmentUsd);
+
+  let metaHtml = `<span>${escHtml(locStr)}</span>`;
+  if (mw) metaHtml += `<span>${mw}</span>`;
+  if (inv) metaHtml += `<span>${inv}</span>`;
+  if (f.announcedDate) metaHtml += `<span>Announced ${f.announcedDate}</span>`;
 
   let regHtml = '';
   if (f.regulatoryBody) {
     regHtml = `<h3>Regulatory Body</h3><p class="regulatory">${escHtml(f.regulatoryBody)}</p>`;
   }
 
+  let timelineHtml = '';
+  if (f.statusHistory && f.statusHistory.length) {
+    timelineHtml = '<h3>Timeline</h3><ul class="timeline">' +
+      f.statusHistory.map(h =>
+        `<li><span class="date">${h.date}</span> &mdash; ${escHtml(h.note || STATUS_LABEL[h.status] || h.status)}</li>`
+      ).join('') + '</ul>';
+  }
+
   let sourcesHtml = '';
   if (f.sources && f.sources.length) {
     sourcesHtml = '<h3>Related News</h3><ul class="sources-list">' +
       f.sources.map(s => {
-        const domain = s.url.replace(/^https?:\/\//, '').replace(/\/.*/, '');
-        return `<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener">${escHtml(s.label || domain)}</a></li>`;
+        const label = s.label || s.url.replace(/^https?:\/\//, '').replace(/\/.*/, '');
+        const pub = s.publisher ? ` <span class="pub">${escHtml(s.publisher)}</span>` : '';
+        return `<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener">${escHtml(label)}</a>${pub}</li>`;
       }).join('') + '</ul>';
+  }
+
+  let communityHtml = '';
+  if (f.community && f.community.notes) {
+    communityHtml = `<h3>Community</h3><p class="notes">${escHtml(f.community.notes)}</p>`;
   }
 
   el.innerHTML =
     `<h2>${escHtml(f.name)}</h2>` +
-    (f.developer ? `<div class="developer">${escHtml(f.developer)}</div>` : '') +
-    `<span class="badge badge-${mapped}">${STAGE_LABEL[mapped]}</span>` +
+    (f.operator ? `<div class="operator">${escHtml(f.operator)}</div>` : '') +
+    `<span class="badge badge-${st}">${STATUS_LABEL[st] || st}</span>` +
     `<div class="meta">${metaHtml}</div>` +
+    (f.notes ? `<p class="notes">${escHtml(f.notes)}</p>` : '') +
     regHtml +
+    timelineHtml +
+    communityHtml +
     sourcesHtml;
 
   el.classList.add('open');
@@ -221,18 +266,18 @@ function escAttr(s) {
 
 document.getElementById('stateFilter').addEventListener('change', renderMarkers);
 
-document.querySelectorAll('.stage-btn').forEach(btn => {
+document.querySelectorAll('.status-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.status-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     renderMarkers();
   });
 });
 
-fetch('data/dcw-facilities.json')
+fetch('data/combined-facilities.json')
   .then(r => r.json())
   .then(data => {
-    facilities = data;
+    facilities = data.facilities || data;
     initMap();
     renderMarkers();
   });
