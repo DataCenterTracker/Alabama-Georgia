@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AL/GA Data Center Project Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root {
+    --green: #2ecc40;
+    --amber: #ff9800;
+    --red: #e74c3c;
+    --gray: #999;
+    --bg: #f5f6fa;
+    --card-bg: #fff;
+    --text: #222;
+    --text-muted: #666;
+    --border: #ddd;
+    --badge-text: #fff;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+
+  header { padding: 16px; background: #1a1a2e; color: #fff; }
+  header h1 { font-size: 1.25rem; }
+
+  #controls { display: flex; flex-wrap: wrap; gap: 10px; padding: 12px 16px; background: var(--card-bg); border-bottom: 1px solid var(--border); align-items: center; }
+  #controls label { font-size: 0.85rem; font-weight: 600; }
+  #controls select, #controls button { font-size: 0.85rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 4px; background: #fff; cursor: pointer; }
+  #controls button.active { background: #1a1a2e; color: #fff; }
+
+  #map { width: 100%; height: 55vh; min-height: 320px; }
+
+  .legend { position: absolute; bottom: 24px; right: 16px; background: rgba(255,255,255,.92); padding: 10px 14px; border-radius: 6px; font-size: 0.8rem; z-index: 1000; box-shadow: 0 1px 4px rgba(0,0,0,.15); line-height: 1.7; }
+  .legend-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+
+  #detail { display: none; max-width: 900px; margin: 16px auto; padding: 20px 24px; background: var(--card-bg); border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,.08); }
+  #detail.open { display: block; }
+  #detail h2 { font-size: 1.15rem; margin-bottom: 2px; }
+  #detail .operator { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 8px; }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; color: var(--badge-text); text-transform: uppercase; letter-spacing: .4px; }
+  .badge-proposed  { background: var(--green); }
+  .badge-approved  { background: var(--amber); }
+  .badge-active    { background: var(--red); }
+  .badge-cancelled { background: var(--gray); }
+  #detail .meta { margin: 10px 0; font-size: 0.9rem; color: var(--text-muted); }
+  #detail .meta span { margin-right: 18px; }
+  #detail .notes { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
+
+  #detail h3 { font-size: 0.95rem; margin: 16px 0 6px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+  .timeline { list-style: none; padding-left: 0; }
+  .timeline li { position: relative; padding: 6px 0 6px 20px; font-size: 0.88rem; line-height: 1.5; border-left: 2px solid var(--border); margin-left: 6px; }
+  .timeline li::before { content: ''; position: absolute; left: -5px; top: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--amber); }
+  .timeline .date { font-weight: 600; }
+
+  .sources-list { list-style: none; padding-left: 0; }
+  .sources-list li { padding: 4px 0; font-size: 0.88rem; }
+  .sources-list a { color: #2563eb; text-decoration: none; }
+  .sources-list a:hover { text-decoration: underline; }
+  .sources-list .pub { color: var(--text-muted); font-size: 0.82rem; }
+
+  #no-detail { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 0.95rem; }
+
+  @media (max-width: 600px) {
+    #map { height: 45vh; }
+    #detail { margin: 10px; padding: 14px; }
+    #controls { padding: 8px 10px; }
+  }
+</style>
+</head>
+<body>
+
+<header><h1>AL / GA Data Center Project Map</h1></header>
+
+<div id="controls">
+  <label>State:</label>
+  <select id="stateFilter">
+    <option value="all">Both</option>
+    <option value="AL">Alabama</option>
+    <option value="GA">Georgia</option>
+  </select>
+  <label>Status:</label>
+  <button class="status-btn active" data-status="all">All</button>
+  <button class="status-btn" data-status="proposed">Proposed</button>
+  <button class="status-btn" data-status="approved">Approved</button>
+  <button class="status-btn" data-status="active">Active</button>
+</div>
+
+<div id="map"></div>
+
+<div id="no-detail">Click a marker on the map to see project details.</div>
+<div id="detail"></div>
+
+<script>
+const STATUS_MAP = {
+  proposed: 'proposed',
+  permitted: 'approved',
+  under_construction: 'active',
+  operational: 'active',
+  cancelled: 'cancelled'
+};
+
+const STATUS_COLOR = {
+  proposed: '#2ecc40',
+  approved: '#ff9800',
+  active: '#e74c3c',
+  cancelled: '#999'
+};
+
+const STATUS_LABEL = {
+  proposed: 'Proposed',
+  approved: 'Approved',
+  active: 'Active',
+  cancelled: 'Cancelled'
+};
+
+function markerIcon(color) {
+  return L.divIcon({
+    className: '',
+    html: `<svg width="14" height="14" viewBox="0 0 14 14"><circle cx="7" cy="7" r="6" fill="${color}" stroke="#fff" stroke-width="1.5"/></svg>`,
+    iconSize: [14, 14],
+    iconAnchor: [7, 7]
+  });
+}
+
+let map, markers = [], facilities = [], activeMarker = null;
+
+function initMap() {
+  map = L.map('map').setView([33.0, -85.5], 7);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
+    maxZoom: 18
+  }).addTo(map);
+
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = function () {
+    const div = L.DomUtil.create('div', 'legend');
+    div.innerHTML =
+      `<div><span class="legend-dot" style="background:${STATUS_COLOR.proposed}"></span>Proposed</div>` +
+      `<div><span class="legend-dot" style="background:${STATUS_COLOR.approved}"></span>Approved</div>` +
+      `<div><span class="legend-dot" style="background:${STATUS_COLOR.active}"></span>Active</div>`;
+    return div;
+  };
+  legend.addTo(map);
+}
+
+function renderMarkers() {
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+
+  const stateVal = document.getElementById('stateFilter').value;
+  const statusBtn = document.querySelector('.status-btn.active');
+  const statusVal = statusBtn ? statusBtn.dataset.status : 'all';
+
+  facilities.forEach(f => {
+    const mapped = STATUS_MAP[f.status] || 'cancelled';
+    if (mapped === 'cancelled') return;
+    if (stateVal !== 'all' && f.location.state !== stateVal) return;
+    if (statusVal !== 'all' && mapped !== statusVal) return;
+
+    const color = STATUS_COLOR[mapped];
+    const m = L.marker([f.location.lat, f.location.lon], { icon: markerIcon(color) });
+    m.on('click', () => showDetail(f));
+    m.addTo(map);
+    markers.push(m);
+  });
+}
+
+function fmtMoney(n) {
+  if (!n) return null;
+  if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return '$' + (n / 1e6).toFixed(0) + 'M';
+  return '$' + n.toLocaleString();
+}
+
+function fmtMw(obj) {
+  if (!obj) return null;
+  const v = obj.planned || obj.operational || obj.underConstruction;
+  if (!v) return null;
+  return v + ' MW';
+}
+
+function showDetail(f) {
+  const mapped = STATUS_MAP[f.status] || 'cancelled';
+  const el = document.getElementById('detail');
+  document.getElementById('no-detail').style.display = 'none';
+
+  const loc = f.location;
+  const county = loc.county ? loc.county + ' County, ' : '';
+  const city = loc.city || '';
+  const locStr = city + (city && county ? ', ' : '') + county + (loc.state || '');
+
+  const mw = fmtMw(f.capacityMw);
+  const inv = fmtMoney(f.investmentUsd);
+
+  let metaHtml = `<span>${locStr}</span>`;
+  if (mw) metaHtml += `<span>${mw}</span>`;
+  if (inv) metaHtml += `<span>${inv}</span>`;
+  if (f.announcedDate) metaHtml += `<span>Announced ${f.announcedDate}</span>`;
+
+  let timelineHtml = '';
+  if (f.statusHistory && f.statusHistory.length) {
+    timelineHtml = '<h3>Timeline</h3><ul class="timeline">' +
+      f.statusHistory.map(h =>
+        `<li><span class="date">${h.date}</span> &mdash; ${escHtml(h.note || STATUS_LABEL[STATUS_MAP[h.status]] || h.status)}</li>`
+      ).join('') + '</ul>';
+  }
+
+  let sourcesHtml = '';
+  if (f.sources && f.sources.length) {
+    sourcesHtml = '<h3>Related News</h3><ul class="sources-list">' +
+      f.sources.map(s =>
+        `<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener">${escHtml(s.label || 'Source')}</a> <span class="pub">${escHtml(s.publisher || '')}</span></li>`
+      ).join('') + '</ul>';
+  }
+
+  let communityHtml = '';
+  if (f.community && f.community.notes) {
+    communityHtml = `<h3>Community</h3><p class="notes">${escHtml(f.community.notes)}</p>`;
+  }
+
+  el.innerHTML =
+    `<h2>${escHtml(f.name)}</h2>` +
+    `<div class="operator">${escHtml(f.operator || '')}</div>` +
+    `<span class="badge badge-${mapped}">${STATUS_LABEL[mapped]}</span>` +
+    `<div class="meta">${metaHtml}</div>` +
+    (f.notes ? `<p class="notes">${escHtml(f.notes)}</p>` : '') +
+    timelineHtml +
+    communityHtml +
+    sourcesHtml;
+
+  el.classList.add('open');
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+function escAttr(s) {
+  return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+document.getElementById('stateFilter').addEventListener('change', renderMarkers);
+
+document.querySelectorAll('.status-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.status-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderMarkers();
+  });
+});
+
+fetch('data/compute-atlas-facilities.json')
+  .then(r => r.json())
+  .then(data => {
+    facilities = data.filter(f => f.facilityType === 'data_center');
+    initMap();
+    renderMarkers();
+  });
+</script>
+</body>
+</html>
