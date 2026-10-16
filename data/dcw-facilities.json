@@ -1,0 +1,3364 @@
+[
+  {
+    "id": "nebius-ai-factory-bhm01",
+    "name": "Nebius AI Factory (BHM01)",
+    "developer": "Nebius (affiliate Alabama ADC Holdings LLC)",
+    "state": "AL",
+    "cityCounty": "Birmingham, Oxmoor Valley (Jefferson County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Birmingham City Council; Zoning Board of Adjustment; Oxmoor Steering Committee",
+    "sources": [
+      {
+        "url": "https://www.wbrc.com/2026/07/11/judge-rules-oxmoor-valley-neighbors-lawsuit-against-nebius-data-center-can-proceed/"
+      },
+      {
+        "url": "https://birminghamwatch.org/?p=130517"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.4419,
+    "lon": -86.8968
+  },
+  {
+    "id": "digi-power-x-columbiana-ai-data-center",
+    "name": "Digi Power X Columbiana AI Data Center",
+    "developer": "Digi Power X (Digihost)",
+    "state": "AL",
+    "cityCounty": "Columbiana (Shelby County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Columbiana City Council (granted 12-month sales and use tax abatement July 21, 2026)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/digi-power-x-columbiana-ai-data-center-al--6218a2c9-4f14-4867-8a1a-0dde11bbc532"
+      },
+      {
+        "url": "https://bhamnow.com/2026/05/05/data-center-alabama-492-alabamians-weigh-in/"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      },
+      {
+        "url": "https://www.investing.com/news/company-news/digi-power-x-secures-200m-debt-commitment-for-alabama-data-center-93CH-4946380"
+      }
+    ],
+    "lat": 33.1810918,
+    "lon": -86.622753
+  },
+  {
+    "id": "construction-partners-hq-data-processing-center",
+    "name": "Construction Partners HQ data processing center",
+    "developer": "Construction Partners Inc.",
+    "state": "AL",
+    "cityCounty": "Dothan area (Houston County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Alabama Department of Commerce (announced project); City of Dothan (by jurisdiction; no vote found)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/construction-partners-corporate-headquarters-data-processing-center-al--8211cbee-210f-4a23-8750-e0ad4e29cfcb"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/alabama-based-construction-partners-to-build-data-center-as-part-of-corporate-headquarters/"
+      }
+    ],
+    "lat": 31.2954673,
+    "lon": -85.3714648
+  },
+  {
+    "id": "dc-blox-montgomery-mgm1",
+    "name": "DC BLOX Montgomery (MGM1)",
+    "developer": "DC BLOX",
+    "state": "AL",
+    "cityCounty": "Hope Hull (Montgomery area)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Alabama Department of Commerce (announced with company Nov. 2024); local approving body not found",
+    "sources": [
+      {
+        "url": "https://www.madeinalabama.com/2024/11/dc-blox-plans-new-advanced-data-centers-in-montgomery-and-huntsville/"
+      },
+      {
+        "url": "https://www.bisnow.com/news/national/data-center/dc-blox-continues-expansion-with-3-southern-data-centers-126848"
+      }
+    ],
+    "lat": 32.2698632,
+    "lon": -86.3571916
+  },
+  {
+    "id": "dp-facilities-huntsville",
+    "name": "DP Facilities Huntsville",
+    "developer": "DP Facilities (tracker groups it with DC BLOX)",
+    "state": "AL",
+    "cityCounty": "Huntsville (Madison County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "City of Huntsville (by jurisdiction; no vote found)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/dp-facilities-huntsville-al--654d3fd2-df2c-4e5c-b17d-ade26a466c8b"
+      }
+    ],
+    "lat": 34.729847,
+    "lon": -86.5859011
+  },
+  {
+    "id": "meta-platforms-madison-county-campus",
+    "name": "Meta Platforms, Madison County campus",
+    "developer": "Meta",
+    "state": "AL",
+    "cityCounty": "Madison County",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "City of Huntsville (land sale and local incentives for Meta's campus); Alabama Department of Commerce (Alabama Jobs Act credits)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/meta-platforms-madison-county-al-al--faa54335-6d73-4382-8097-787056d17a2e"
+      },
+      {
+        "url": "https://huntsvillebusinessjournal.com/news/2026/09/23/are-more-data-centers-coming-to-north-alabama-what-local-leaders-are-saying/"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 34.7736807,
+    "lon": -86.5675095
+  },
+  {
+    "id": "meta-montgomery-data-center",
+    "name": "Meta Montgomery Data Center",
+    "developer": "Meta",
+    "state": "AL",
+    "cityCounty": "Montgomery County (near Hyundai plant)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Alabama Department of Commerce / Governor (Alabama Jobs Act incentive agreements); City of Montgomery and Montgomery County (local partners; no local vote found); Alabama PSC (related Alabama Power solar)",
+    "sources": [
+      {
+        "url": "https://datacentermap.com/usa/alabama/montgomery/meta-montgomery-data-center"
+      },
+      {
+        "url": "https://baxtel.com/news/meta-plans-data-center-in-montgomery-alabama"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      },
+      {
+        "url": "https://www.lagniappemobile.com/news/baldwin_county/meta-will-own-baldwin-solar-fields/article_6148e0d2-dae6-425a-8b66-b7b0f8fec4e3.amp.html"
+      },
+      {
+        "url": "https://www.madeinalabama.com/2024/05/meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/"
+      }
+    ],
+    "lat": 32.185,
+    "lon": -86.273
+  },
+  {
+    "id": "university-of-alabama-high-performance-computing-and-data-center",
+    "name": "University of Alabama High Performance Computing and Data Center",
+    "developer": "University of Alabama",
+    "state": "AL",
+    "cityCounty": "Tuscaloosa (Tuscaloosa County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "University of Alabama System Board of Trustees",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/university-of-alabama-high-performance-computing-and-data-center-al--f6886460-af5a-4c62-ba27-034eed544cd5"
+      },
+      {
+        "url": "https://servercountry.org/data/states/alabama/"
+      },
+      {
+        "url": "https://news.ua.edu/?p=161084"
+      },
+      {
+        "url": "https://datacenterdynamics.com/en/news/university-of-alabama-to-get-new-hpc-data-center"
+      }
+    ],
+    "lat": 33.2120822,
+    "lon": -87.5396735
+  },
+  {
+    "id": "mill-creek-data-center",
+    "name": "Mill Creek Data Center",
+    "developer": "LBYD Inc. (engineering firm, likely for unnamed end user)",
+    "state": "AL",
+    "cityCounty": "Auburn (Lee County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Auburn City Council",
+    "sources": [
+      {
+        "url": "https://datacenterdynamics.com/en/news/new-data-center-gains-approval-in-auburn-alabama"
+      }
+    ],
+    "lat": 32.6098566,
+    "lon": -85.4807825
+  },
+  {
+    "id": "core-scientific-auburn-aubix",
+    "name": "Core Scientific Auburn (AUBix)",
+    "developer": "Core Scientific (lessee); AUBix LLC (owner)",
+    "state": "AL",
+    "cityCounty": "Auburn (Lee County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Auburn City Council (abatement granted 2021; extended to Core Scientific March 4, 2025)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/core-scientific-auburn-aubix-al--78d328c5-70a5-4652-96bf-a2bd8654b1a9"
+      },
+      {
+        "url": "https://www.areadevelopment.com/newsitems/state-alabama/properties-data-centers"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 32.6098566,
+    "lon": -85.4807825
+  },
+  {
+    "id": "project-marvel",
+    "name": "Project Marvel",
+    "developer": "QTS Data Centers (confirmed by city); developer of record Logistics Land Investment LLC (TPA Group)",
+    "state": "AL",
+    "cityCounty": "Bessemer (Jefferson County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Bessemer City Council; Bessemer Planning Commission",
+    "sources": [
+      {
+        "url": "https://www.wbrc.com/2026/04/22/this-project-feels-like-an-invasion-bessemer-council-approves-major-data-center-rezoning-amid-community-divide/"
+      },
+      {
+        "url": "https://abc3340.com/news/local/alabama-bessemer-approves-rezoning-of-914-acres-for-project-marvel-data-center-april-2026"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/qts-plans-data-center-campus-outside-milan-italy/"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.4017766,
+    "lon": -86.954437
+  },
+  {
+    "id": "delta-forge-2-project-headlines",
+    "name": "Delta Forge 2 (Project Headlines)",
+    "developer": "Applied Digital (permittee APLD BHM-01 LLC); tenant Kayvens LLC; unnamed U.S. hyperscaler lease",
+    "state": "AL",
+    "cityCounty": "Brookwood (Tuscaloosa County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Brookwood City Council (rezoning); Tuscaloosa County Economic Development Authority (abatement); ADEM (stormwater permit)",
+    "sources": [
+      {
+        "url": "https://www.fox10tv.com/2026/09/25/applied-digital-confirms-32-billion-data-center-campus-brookwood/"
+      },
+      {
+        "url": "https://abc3340.com/news/local/alabama-32-billion-ai-data-center-campus-announced-in-brookwood-brookwood-mayor-joe-barger-september-2026"
+      },
+      {
+        "url": "https://tuscaloosathread.com/applied-digital-brookwood-data-center/"
+      },
+      {
+        "url": "https://datacenterdynamics.com/en/news/applied-digital-reveals-32bn-delta-forge-2-ai-data-center-will-be-built-in-alabama"
+      },
+      {
+        "url": "https://abc3340.com/news/local/2-million-square-foot-brookwood-project-appears-linked-to-applied-digital-ai-campus"
+      }
+    ],
+    "lat": 33.2556719,
+    "lon": -87.3208336
+  },
+  {
+    "id": "project-brookwood-data-center-campus",
+    "name": "Project Brookwood data center campus",
+    "developer": "Youngwoo & Associates (New York), via Project Brookwood LLC",
+    "state": "AL",
+    "cityCounty": "Brookwood (Tuscaloosa County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Brookwood City Council",
+    "sources": [
+      {
+        "url": "https://tuscaloosathread.com/brookwood-rezoning-vote-youngwoo-data-center/"
+      }
+    ],
+    "lat": 33.2112238,
+    "lon": -87.2715693
+  },
+  {
+    "id": "project-red-clay",
+    "name": "Project Red Clay",
+    "developer": "Cloverleaf Infrastructure (operating LLC Sandstone Cliffs DevCo); end user not disclosed",
+    "state": "AL",
+    "cityCounty": "Burkville (Lowndes County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Lowndes County Commission; Lowndes County Economic Development Commission (county has no zoning)",
+    "sources": [
+      {
+        "url": "https://www.wsfa.com/2026/10/13/lowndes-county-commission-approves-data-center-deal/"
+      },
+      {
+        "url": "https://alabamareflector.com/2026/10/15/lowndes-commission-approves-1-15-billion-tax-break-for-a-data-center-despite-pushback/"
+      },
+      {
+        "url": "https://www.waka.com/2026/10/15/lowndes-co-commission-approves-controversial-data-center/"
+      },
+      {
+        "url": "https://aldailynews.com/lowndes-county-commission-approves-controversial-project-red-clay-data-center/"
+      },
+      {
+        "url": "https://www.selc.org/press-release/data-center-gets-massive-tax-break-in-surprise-vote-by-lowndes-commission/"
+      }
+    ],
+    "lat": 32.2700221,
+    "lon": -86.5128035
+  },
+  {
+    "id": "patmos-fairfield-technology-campus",
+    "name": "Patmos Fairfield technology campus",
+    "developer": "Patmos (Kansas City; CEO John Johnson)",
+    "state": "AL",
+    "cityCounty": "Fairfield (Jefferson County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Fairfield City Council",
+    "sources": [
+      {
+        "url": "https://www.wbrc.com/2026/08/13/hundreds-pack-fairfield-town-hall-over-proposed-data-center-inside-former-walmart/"
+      },
+      {
+        "url": "https://abc3340.com/news/local/jobs-power-and-water-fairfield-presses-data-center-developers"
+      },
+      {
+        "url": "https://birminghamwatch.org/?p=130517"
+      }
+    ],
+    "lat": 33.4916836,
+    "lon": -86.9150283
+  },
+  {
+    "id": "project-gateway-edged-prichard-data-center",
+    "name": "Project Gateway (Edged Prichard Data Center)",
+    "developer": "Edged Energy (Edged US, Koch Real Estate Investments portfolio company)",
+    "state": "AL",
+    "cityCounty": "Prichard (Mobile County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Prichard City Council; Prichard Planning Commission",
+    "sources": [
+      {
+        "url": "https://www.fox10tv.com/2026/09/30/stalled-prichard-data-center-back-lawyer-says/"
+      },
+      {
+        "url": "https://www.fox10tv.com/2026/09/11/developer-proposed-data-center-threatens-prichard-with-litigation/"
+      },
+      {
+        "url": "https://mynbc15.com/news/local/prichard-questions-validity-of-permit-issued-before-data-center-moratorium"
+      }
+    ],
+    "lat": 30.7387998,
+    "lon": -88.0788889
+  },
+  {
+    "id": "tuscaloosa-624-investors-land",
+    "name": "Tuscaloosa 624 Investors land",
+    "developer": "Provident Data Centers (linked by shared address; not confirmed by company)",
+    "state": "AL",
+    "cityCounty": "Brookwood (Tuscaloosa County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Brookwood City Council",
+    "sources": [
+      {
+        "url": "https://tuscaloosathread.com/provident-developer-third-brookwood-data-center/"
+      },
+      {
+        "url": "https://tuscaloosathread.com/brookwood-rezoning-vote-youngwoo-data-center/"
+      }
+    ],
+    "lat": 33.2556719,
+    "lon": -87.3208336
+  },
+  {
+    "id": "calvert-infrastructure-hub",
+    "name": "Calvert Infrastructure Hub",
+    "developer": "Beacon Data Centers (Beacon AI Centers, launched by Nadia Partners)",
+    "state": "AL",
+    "cityCounty": "Calvert (Mobile County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Mobile County Commission (unincorporated; commissioners cite limited authority); South Alabama Utilities (water)",
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/canadas-beacon-details-plans-for-data-center-campus-in-alabama/"
+      },
+      {
+        "url": "https://www.fox10tv.com/2026/07/05/beacon-data-centers-posts-information-about-calvert-infrastructure-hub/"
+      },
+      {
+        "url": "https://www.wkrg.com/mobile-county/proposed-mobile-county-data-center-sparks-frustration-as-residents-press-commissioners-for-answers/"
+      }
+    ],
+    "lat": 31.1551748,
+    "lon": -88.0099997
+  },
+  {
+    "id": "western-hospitality-childersburg-data-center",
+    "name": "Western Hospitality Childersburg Data Center",
+    "developer": "Western Hospitality Partners (mayor named \"WHP Development\"; developer rep did not confirm)",
+    "state": "AL",
+    "cityCounty": "Childersburg (Talladega County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Childersburg City Council",
+    "sources": [
+      {
+        "url": "https://wbhm.org/2026/this-small-alabama-town-was-part-of-the-manhattan-project-now-it-may-host-a-hyperscale-data-center"
+      }
+    ],
+    "lat": 33.2781686,
+    "lon": -86.3549774
+  },
+  {
+    "id": "usspacecom-command-and-control-facility-with-data-center",
+    "name": "USSPACECOM Command and Control Facility (with data center)",
+    "developer": "U.S. Department of Defense / Air Force Civil Engineer Center (contractor not selected)",
+    "state": "AL",
+    "cityCounty": "Huntsville, Redstone Arsenal (Madison County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Air Force Civil Engineer Center (federal)",
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/us-dod-seeks-partner-to-build-4bn-mission-critical-facility-and-data-center-in-alabama/"
+      }
+    ],
+    "lat": 34.6982719,
+    "lon": -86.654558
+  },
+  {
+    "id": "proposed-marengo-hale-county-data-center",
+    "name": "Proposed Marengo/Hale County data center",
+    "developer": "Not identified in sources",
+    "state": "AL",
+    "cityCounty": "Marengo and Hale counties (Black Belt)",
+    "stage": "Proposed",
+    "regulatoryBody": "No zoning authority (unincorporated; Alabama counties lack home rule to zone). Marengo and Hale county commissions can act only through tax abatements.",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/black-belt.html"
+      },
+      {
+        "url": "https://www.blackbeltnewsnetwork.com/news/sewell-cosponsors-bill-to-pause-ai-data-centers-including-one-proposed-for-the-black-belt/article_6662a56f-0618-44fd-aa16-493f55f41cfc.html"
+      },
+      {
+        "url": "https://hoodline.com/2026/10/rural-alabama-towns-can-t-stop-data-centers-and-developers-know-it/"
+      }
+    ],
+    "lat": 32.35,
+    "lon": -87.7
+  },
+  {
+    "id": "trinity-data-center-site-undisclosed",
+    "name": "Trinity Data Center (site undisclosed)",
+    "developer": "Not identified in sources (a Baxtel page slug references Stream Data Centers; unconfirmed)",
+    "state": "AL",
+    "cityCounty": "Morgan County (Trinity area)",
+    "stage": "Proposed",
+    "regulatoryBody": "Trinity Town Council (one-year data center moratorium adopted July 13, 2026)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/trinity-data-center-site-undisclosed-al--be4cc5ab-8a3f-459e-a09c-37c6c4b9f390"
+      }
+    ],
+    "lat": 34.4296848,
+    "lon": -86.8529584
+  },
+  {
+    "id": "somerville-bitcoin-mining-data-center-union-road",
+    "name": "Somerville bitcoin mining data center (Union Road)",
+    "developer": "Sovereign Gazelle LLC / VoltCore (sources name both)",
+    "state": "AL",
+    "cityCounty": "Somerville area (Morgan County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Morgan County Commission; Town of Somerville (limited authority)",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/decatur.html"
+      },
+      {
+        "url": "https://www.techradar.com/pro/alabama-town-left-powerless-against-massive-new-bitcoin-mining-data-center-after-developer-finds-loophole-in-state-zoning-laws"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/sovereign-gazelle-bitcoin-mining-data-center-somerville-al--9c1aa352-b0ac-4889-a6f9-bd0f158f58a4"
+      }
+    ],
+    "lat": 42.3880188,
+    "lon": -71.0763426
+  },
+  {
+    "id": "westover-data-center-campus",
+    "name": "Westover Data Center Campus",
+    "developer": "Swift Willow Property LLC (Swift Data Development)",
+    "state": "AL",
+    "cityCounty": "Westover (Shelby County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Westover City Council",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/westover-data-center-campus-al--d600886a-a7c7-4334-ba58-1b332ee5fb94"
+      },
+      {
+        "url": "https://www.wbrc.com/2026/08/19/westover-approves-6-month-moratorium-data-centers/"
+      },
+      {
+        "url": "https://abc3340.com/news/abc-3340-news-iteam/how-did-westovers-proposed-data-center-get-here-records-show-the-timeline"
+      }
+    ],
+    "lat": 33.3495548,
+    "lon": -86.5358159
+  },
+  {
+    "id": "wilsonville-hyperscale-data-center",
+    "name": "Wilsonville Hyperscale Data Center",
+    "developer": "NorthPoint Development (Kansas City)",
+    "state": "AL",
+    "cityCounty": "Wilsonville (Shelby County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Wilsonville Town Council (annexation)",
+    "sources": [
+      {
+        "url": "https://alabamareflector.com/2025/08/24/wilsonville-residents-seek-preemptive-strike-against-massive-data-center-project/"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/wilsonville-hyperscale-data-center-northpoint-development-al--1f05439c-4486-4091-80fc-40b499783d12"
+      }
+    ],
+    "lat": 33.234281,
+    "lon": -86.4835916
+  },
+  {
+    "id": "data-center-ordinance-conditional-use",
+    "name": "Data center ordinance (conditional use)",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Athens (Limestone County)",
+    "stage": "",
+    "regulatoryBody": "City of Athens",
+    "sources": [
+      {
+        "url": "https://bhamnow.com/2026/05/05/data-center-alabama-492-alabamians-weigh-in/"
+      }
+    ],
+    "lat": 34.8045487,
+    "lon": -86.9711698
+  },
+  {
+    "id": "dc-blox-birmingham-expansion",
+    "name": "DC BLOX Birmingham expansion",
+    "developer": "DC BLOX",
+    "state": "AL",
+    "cityCounty": "Birmingham (Jefferson County)",
+    "stage": "",
+    "regulatoryBody": "Birmingham City Council",
+    "sources": [
+      {
+        "url": "https://www.cleanview.co/data-centers/alabama/975/dc-blox---birmingham-expansion"
+      },
+      {
+        "url": "https://www.wbrc.com/2026/04/10/zoning-clarification-allows-key-parts-ai-factory-project-move-forward-oxmoor-valley/"
+      }
+    ],
+    "lat": 33.5206824,
+    "lon": -86.8024326
+  },
+  {
+    "id": "hyperscale-data-center-ordinance",
+    "name": "Hyperscale data center ordinance",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Birmingham (Jefferson County)",
+    "stage": "",
+    "regulatoryBody": "City of Birmingham",
+    "sources": [
+      {
+        "url": "https://dcmap.us/insights/policy/"
+      }
+    ],
+    "lat": 33.5206824,
+    "lon": -86.8024326
+  },
+  {
+    "id": "google-jackson-county-campus-expansion",
+    "name": "Google Jackson County campus expansion",
+    "developer": "Google",
+    "state": "AL",
+    "cityCounty": "Bridgeport (Jackson County)",
+    "stage": "",
+    "regulatoryBody": "Jackson County Development Authority (local economic development); TVA (site lessor and power provider); Alabama Department of Commerce (original 30-year state abatement)",
+    "sources": [
+      {
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/"
+      },
+      {
+        "url": "https://servercountry.org/data/states/alabama/"
+      },
+      {
+        "url": "https://businessalabama.com/as-data-centers-boom-some-alabama-cities-say-wait-a-minute/"
+      }
+    ],
+    "lat": 34.9475232,
+    "lon": -85.7171895
+  },
+  {
+    "id": "data-center-ordinance",
+    "name": "Data center ordinance",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Columbiana (Shelby County)",
+    "stage": "",
+    "regulatoryBody": "City of Columbiana",
+    "sources": [
+      {
+        "url": "https://alabamarivers.org/data-centers/"
+      }
+    ],
+    "lat": 33.1781718,
+    "lon": -86.6072054
+  },
+  {
+    "id": "data-center-ordinance-special-exception-permit",
+    "name": "Data center ordinance (special exception permit)",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Decatur (Morgan County)",
+    "stage": "",
+    "regulatoryBody": "City of Decatur",
+    "sources": [
+      {
+        "url": "https://www.govtech.com/artificial-intelligence/alabama-city-establishes-new-rules-for-data-centers"
+      }
+    ],
+    "lat": 34.6060203,
+    "lon": -86.9838165
+  },
+  {
+    "id": "data-center-ordinance",
+    "name": "Data center ordinance",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Hoover (Jefferson/Shelby)",
+    "stage": "",
+    "regulatoryBody": "City of Hoover",
+    "sources": [
+      {
+        "url": "https://alabamarivers.org/data-centers/"
+      }
+    ],
+    "lat": 33.350293,
+    "lon": -86.851123
+  },
+  {
+    "id": "dc-blox-huntsville-edge-node",
+    "name": "DC BLOX Huntsville edge node",
+    "developer": "DC BLOX",
+    "state": "AL",
+    "cityCounty": "Huntsville (Madison County)",
+    "stage": "",
+    "regulatoryBody": "Alabama Department of Commerce (announced Nov. 2024); City of Huntsville (by jurisdiction; no vote found)",
+    "sources": [
+      {
+        "url": "https://www.madeinalabama.com/2024/11/dc-blox-plans-new-advanced-data-centers-in-montgomery-and-huntsville/"
+      }
+    ],
+    "lat": 34.729847,
+    "lon": -86.5859011
+  },
+  {
+    "id": "citywide-data-center-moratorium",
+    "name": "Citywide data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Anniston (Calhoun County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Anniston",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/anniston-data-center-moratorium-al--e4f0a5e2-4a8f-48f7-9a0b-20c54f432ba0"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.6624824,
+    "lon": -85.8283224
+  },
+  {
+    "id": "180-day-moratorium-on-ai-data-centers-and-rezonings",
+    "name": "180-day moratorium on AI data centers and rezonings",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Baldwin County (unincorporated, county-zoned areas)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Baldwin County Commission",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 30.5677527,
+    "lon": -87.7324392
+  },
+  {
+    "id": "citywide-data-center-moratorium",
+    "name": "Citywide data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Birmingham (Jefferson County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Birmingham",
+    "sources": [
+      {
+        "url": "https://www.wbrc.com/2026/04/10/zoning-clarification-allows-key-parts-ai-factory-project-move-forward-oxmoor-valley/"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.5206824,
+    "lon": -86.8024326
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Calera (Shelby County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Calera",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.1035045,
+    "lon": -86.7505733
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Chelsea (Shelby County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Chelsea",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.3401108,
+    "lon": -86.6302625
+  },
+  {
+    "id": "12-month-data-center-moratorium",
+    "name": "12-month data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Cullman (Cullman County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Cullman",
+    "sources": [
+      {
+        "url": "https://www.wbrc.com/2026/06/26/cullman-city-council-unanimously-passes-12-month-temporary-moratorium-data-centers/"
+      }
+    ],
+    "lat": 34.1335332,
+    "lon": -86.8779268
+  },
+  {
+    "id": "temporary-ban-on-new-data-centers",
+    "name": "Temporary ban on new data centers",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Fairfield (Jefferson County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Fairfield",
+    "sources": [
+      {
+        "url": "https://www.wbrc.com/2026/08/13/hundreds-pack-fairfield-town-hall-over-proposed-data-center-inside-former-walmart/"
+      }
+    ],
+    "lat": 33.4916836,
+    "lon": -86.9150283
+  },
+  {
+    "id": "citywide-data-center-moratorium",
+    "name": "Citywide data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Foley (Baldwin County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Foley",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/foley-data-center-moratorium-al--e0c85c57-0e61-4a70-8cd6-72f82ff5ff38"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 30.4065868,
+    "lon": -87.6835974
+  },
+  {
+    "id": "six-month-data-center-moratorium",
+    "name": "Six-month data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Fort Payne (DeKalb County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Fort Payne",
+    "sources": [
+      {
+        "url": "https://www.datacenterbans.com/state/alabama"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 34.4442547,
+    "lon": -85.7196893
+  },
+  {
+    "id": "town-data-center-moratorium",
+    "name": "Town data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Harpersville (Shelby County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Town of Harpersville",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/harpersville-data-center-moratorium-al--53996bd4-0c4d-4e85-a4c2-91dcdfe4d2a2"
+      }
+    ],
+    "lat": 33.3439995,
+    "lon": -86.4380357
+  },
+  {
+    "id": "12-month-data-center-moratorium",
+    "name": "12-month data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Homewood (Jefferson County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Homewood",
+    "sources": [
+      {
+        "url": "https://www.datacenterbans.com/state/alabama"
+      }
+    ],
+    "lat": 33.4737098,
+    "lon": -86.8084509
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Hueytown (Jefferson County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Hueytown",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.4512197,
+    "lon": -86.9966606
+  },
+  {
+    "id": "one-year-data-center-moratorium",
+    "name": "One-year data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Leeds (Jefferson/St. Clair/Shelby)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Leeds",
+    "sources": [
+      {
+        "url": "https://www.datacenterbans.com/state/alabama"
+      }
+    ],
+    "lat": 33.5439212,
+    "lon": -86.5427551
+  },
+  {
+    "id": "12-month-data-center-crypto-mining-moratorium",
+    "name": "12-month data center crypto mining moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Morgan County (unincorporated)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Morgan County Commission",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 34.4296848,
+    "lon": -86.8529584
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Pinson (Jefferson County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Pinson",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.6889908,
+    "lon": -86.6833229
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Priceville (Morgan County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Town of Priceville",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 34.5250932,
+    "lon": -86.8947271
+  },
+  {
+    "id": "six-month-data-center-moratorium",
+    "name": "Six-month data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Prichard (Mobile County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Prichard",
+    "sources": [
+      {
+        "url": "https://mynbc15.com/news/local/prichard-questions-validity-of-permit-issued-before-data-center-moratorium"
+      }
+    ],
+    "lat": 30.7387998,
+    "lon": -88.0788889
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Springville (St. Clair County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Springville",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.7750997,
+    "lon": -86.4716512
+  },
+  {
+    "id": "tallassee-1852-mill-data-center-proposal",
+    "name": "Tallassee 1852 Mill Data Center Proposal",
+    "developer": "Not identified in sources",
+    "state": "AL",
+    "cityCounty": "Tallassee (Elmore County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Tallassee City Council",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/tallassee-1852-mill-data-center-proposal-al--f7ac7e17-c819-4f12-8ac0-b859b645fabb"
+      },
+      {
+        "url": "https://www.wsfa.com/2026/07/24/candidates-alabamas-governor-race-discuss-data-centers-state/"
+      }
+    ],
+    "lat": 32.5333016,
+    "lon": -85.8901615
+  },
+  {
+    "id": "citywide-data-center-moratorium",
+    "name": "Citywide data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Tarrant (Jefferson County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Tarrant",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/tarrant-data-center-moratorium-al--21b5361f-c298-4ba7-b747-05f16348144a"
+      },
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 33.5834373,
+    "lon": -86.7727681
+  },
+  {
+    "id": "one-year-data-center-moratorium",
+    "name": "One-year data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Trinity (Morgan County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Town of Trinity",
+    "sources": [
+      {
+        "url": "https://computelaw.blog/incentives-map/"
+      }
+    ],
+    "lat": 34.6067588,
+    "lon": -87.0883459
+  },
+  {
+    "id": "citywide-data-center-moratorium",
+    "name": "Citywide data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "AL",
+    "cityCounty": "Westover (Shelby County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Westover",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/westover-data-center-moratorium-al--260a65da-aa44-4b7e-a29d-b49fb202b4a5"
+      }
+    ],
+    "lat": 33.3495548,
+    "lon": -86.5358159
+  },
+  {
+    "id": "edged-atlanta-campus-atl01-atl03",
+    "name": "Edged Atlanta campus (ATL01-ATL03)",
+    "developer": "Edged",
+    "state": "GA",
+    "cityCounty": "Atlanta (Fulton County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Atlanta City Council",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/edged-atlanta-campus-atl01-atl03-ga--49d2539d-9c05-4fed-bf2c-2f9147b62878"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-atlanta-edged-atl01"
+      }
+    ],
+    "lat": 33.7544657,
+    "lon": -84.3898151
+  },
+  {
+    "id": "project-eisenhower-former-t5-augusta-site-2883-gordon-hwy",
+    "name": "Project Eisenhower (former T5@Augusta site, 2883 Gordon Hwy)",
+    "developer": "QTS Data Centers (confirmed Feb. 2026); earlier DCA filer Eagle South LLC",
+    "state": "GA",
+    "cityCounty": "Augusta (Augusta-Richmond County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Augusta-Richmond County Commission; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://www.yahoo.com/news/articles/2-billion-augusta-data-center-100556100.html"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-augusta-project-eisenhower"
+      },
+      {
+        "url": "https://datacentercensus.com/us/georgia"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/project-eisenhower-qts-augusta-ga--bfce3198-dd39-4fb7-956d-d4354a7da59d"
+      },
+      {
+        "url": "https://theaugustapress.com/qts-unveils-more-about-gordon-highway-data-project/"
+      }
+    ],
+    "lat": 33.4709714,
+    "lon": -81.9748429
+  },
+  {
+    "id": "serverfarm-data-center-with-on-site-gas-power",
+    "name": "Serverfarm data center with on-site gas power",
+    "developer": "Serverfarm (on-site power: VoltaGrid)",
+    "state": "GA",
+    "cityCounty": "Covington (Newton County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Covington City Council; Georgia EPD (air permits); Georgia PSC (Docket 57243)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-covington-serverfarm-hazelbrand"
+      },
+      {
+        "url": "https://www.gpb.org/news/2026/07/07/data-center-power-plant-company-texas-gets-warned-it-may-be-violating-georgia-law"
+      }
+    ],
+    "lat": 33.5966005,
+    "lon": -83.8598742
+  },
+  {
+    "id": "aws-data-center-alcovy-road",
+    "name": "AWS data center (Alcovy Road)",
+    "developer": "Amazon Web Services",
+    "state": "GA",
+    "cityCounty": "Covington (Newton County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Covington City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-covington-aws-alcovy-road"
+      }
+    ],
+    "lat": 33.5966005,
+    "lon": -83.8598742
+  },
+  {
+    "id": "compass-datacenters-atlanta-campus",
+    "name": "Compass Datacenters Atlanta campus",
+    "developer": "Compass Datacenters",
+    "state": "GA",
+    "cityCounty": "Douglas County",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/compass-datacenters-atlanta-ga-ga--834151ac-fe35-4a94-bf6f-cdbffdcc3bfa"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "microsoft-douglas-county-campus",
+    "name": "Microsoft Douglas County campus",
+    "developer": "Microsoft",
+    "state": "GA",
+    "cityCounty": "Douglas County",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/microsoft-douglas-county-campus-ga--7ce274e8-c8c4-41d5-86a2-0062c3417322"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "stack-atlanta-campus",
+    "name": "Stack Atlanta campus",
+    "developer": "Stack Infrastructure",
+    "state": "GA",
+    "cityCounty": "Douglas County",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/stack-atlanta-campus-ga--3d125d51-44a7-4061-b5f6-e3782741209e"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "dc-blox-atlanta-west-campus",
+    "name": "DC BLOX Atlanta West campus",
+    "developer": "DC BLOX",
+    "state": "GA",
+    "cityCounty": "Douglasville (Douglas County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Douglasville City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglasville-dc-blox-atl-west"
+      },
+      {
+        "url": "https://www.apollotechnical.com/data-centers-in-georgia/"
+      },
+      {
+        "url": "https://baxtel.com/data-center/dc-blox-atl1-a"
+      }
+    ],
+    "lat": 33.7514966,
+    "lon": -84.7477136
+  },
+  {
+    "id": "vantage-douglasville-campus",
+    "name": "Vantage Douglasville campus",
+    "developer": "Vantage Data Centers",
+    "state": "GA",
+    "cityCounty": "Douglasville (Douglas County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Douglasville City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglasville-vantage"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/vantage-data-centers-douglasville-campus-ga--af7f173e-86ad-4844-bf79-4b930a670904"
+      },
+      {
+        "url": "https://baxtel.com/data-center/vantage-douglasville-1"
+      }
+    ],
+    "lat": 33.7514966,
+    "lon": -84.7477136
+  },
+  {
+    "id": "qts-fayetteville-campus-project-excalibur",
+    "name": "QTS Fayetteville campus (Project Excalibur)",
+    "developer": "QTS Data Centers",
+    "state": "GA",
+    "cityCounty": "Fayetteville (Fayette County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Fayetteville City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-fayetteville-qts-excalibur"
+      },
+      {
+        "url": "https://datacentercensus.com/us/georgia"
+      }
+    ],
+    "lat": 33.4487257,
+    "lon": -84.4549262
+  },
+  {
+    "id": "qts-atl2-east",
+    "name": "QTS ATL2 East",
+    "developer": "QTS Data Centers",
+    "state": "GA",
+    "cityCounty": "Fayetteville (Fayette County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Fayetteville City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-fayetteville-qts-atl2-east"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/atl2-east-qts-eastwood-fayetteville-ga--d3c3e70c-2b57-4bfa-a09b-6f8efe3a0c6c"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/qts-files-to-expand-fayetteville-data-center-campus-in-georgia/"
+      },
+      {
+        "url": "https://baxtel.com/data-center/qts-fayetteville-east-expansion"
+      }
+    ],
+    "lat": 33.4487257,
+    "lon": -84.4549262
+  },
+  {
+    "id": "microsoft-data-center-rome-area",
+    "name": "Microsoft data center (Rome area)",
+    "developer": "Microsoft",
+    "state": "GA",
+    "cityCounty": "Floyd County (Huffaker Road)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Floyd County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-rome-microsoft-huffaker-road"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/microsoft-rome-floyd-county-data-center-ga--2120ac37-07a6-4fe4-b7cb-aea4cebb38c3"
+      },
+      {
+        "url": "https://datacenterdynamics.com/en/news/microsoft-to-develop-350-acre-data-center-campus-in-rome-georgia"
+      }
+    ],
+    "lat": 34.2421984,
+    "lon": -85.2229248
+  },
+  {
+    "id": "equinix-xscale-data-center-campus",
+    "name": "Equinix xScale data center campus",
+    "developer": "Equinix (sold to xScale JV AMER 3, Jan. 2026)",
+    "state": "GA",
+    "cityCounty": "Hampton (Henry County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Hampton City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-hampton-equinix-xscale"
+      }
+    ],
+    "lat": 33.3870578,
+    "lon": -84.2829784
+  },
+  {
+    "id": "hampton-technology-park",
+    "name": "Hampton Technology Park",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Hampton (Henry County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Hampton City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-hampton-technology-park"
+      }
+    ],
+    "lat": 33.3871,
+    "lon": -84.283
+  },
+  {
+    "id": "aws-river-park-campus-project-lighthouse",
+    "name": "AWS River Park campus (Project Lighthouse)",
+    "developer": "Amazon Web Services",
+    "state": "GA",
+    "cityCounty": "Jackson (Butts County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Butts County Board of Commissioners; Development Authority of Butts County; Butts County Board of Education (PILOT)",
+    "sources": [
+      {
+        "url": "https://www.jacksonprogress-argus.com/news/amazon-s-future-contributions-to-local-entities-adjusted/article_517a4ab7-03a7-4297-847f-5a0d11d438ba.html"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-butts-aws-river-park"
+      }
+    ],
+    "lat": 34.1282559,
+    "lon": -83.5753386
+  },
+  {
+    "id": "project-pegasus",
+    "name": "Project Pegasus",
+    "developer": "Google",
+    "state": "GA",
+    "cityCounty": "LaGrange (Troup County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "LaGrange City Council; Three Rivers Regional Commission (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-lagrange-project-pegasus-google"
+      },
+      {
+        "url": "https://www.apollotechnical.com/data-centers-in-georgia/"
+      }
+    ],
+    "lat": 33.039291,
+    "lon": -85.0313269
+  },
+  {
+    "id": "northern-data-rumble-data-center",
+    "name": "Northern Data / Rumble data center",
+    "developer": "Northern Data; Rumble",
+    "state": "GA",
+    "cityCounty": "Maysville (Jackson County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Maysville City Council; Georgia Soil and Water Conservation Commission",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-maysville-northern-data"
+      }
+    ],
+    "lat": 34.2528839,
+    "lon": -83.5615548
+  },
+  {
+    "id": "core-scientific-dalton-4-ai-data-center",
+    "name": "Core Scientific Dalton 4 AI data center",
+    "developer": "Core Scientific",
+    "state": "GA",
+    "cityCounty": "Whitfield County (Old Tilton Road)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Whitfield County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-whitfield-core-scientific-dalton-4"
+      }
+    ],
+    "lat": 34.7969288,
+    "lon": -84.9745026
+  },
+  {
+    "id": "google-white-oak-technology-park",
+    "name": "Google White Oak Technology Park",
+    "developer": "Kinetic Infrastructure Solutions LLC (Alphabet/Google subsidiary); original developer Trammell Crow Co.",
+    "state": "GA",
+    "cityCounty": "Appling (Columbia County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Columbia County Board of Commissioners; Development Authority of Columbia County",
+    "sources": [
+      {
+        "url": "https://theaugustapress.com/google-revealed-as-end-user-of-appling-data-center/"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-appling-white-oak-technology-park"
+      },
+      {
+        "url": "https://www.wrdw.com/2026/08/26/columbia-county-advances-17-billion-data-center-deal/"
+      }
+    ],
+    "lat": 31.7771435,
+    "lon": -82.2996274
+  },
+  {
+    "id": "ta-realty-data-center",
+    "name": "TA Realty data center",
+    "developer": "TA Realty",
+    "state": "GA",
+    "cityCounty": "Clayton County (East Tanners Church Road)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Development Authority of Clayton County; Clayton County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-clayton-ta-realty-east-tanners-church"
+      },
+      {
+        "url": "https://www.theloadreport.com/projects/south-clayton.html"
+      }
+    ],
+    "lat": 33.5204959,
+    "lon": -84.3591713
+  },
+  {
+    "id": "project-peach",
+    "name": "Project Peach",
+    "developer": "CyrusOne",
+    "state": "GA",
+    "cityCounty": "Coweta County",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Coweta County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-coweta-project-peach"
+      }
+    ],
+    "lat": 33.3500656,
+    "lon": -84.7545734
+  },
+  {
+    "id": "winston-data-center-waldrop-land",
+    "name": "Winston data center (Waldrop land)",
+    "developer": "Trammell Crow Co.",
+    "state": "GA",
+    "cityCounty": "Douglas County (Winston)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglas-winston-waldrop"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "stream-data-centers-winston-campus-sdc-atla",
+    "name": "Stream Data Centers Winston campus (SDC ATLA)",
+    "developer": "Stream Data Centers",
+    "state": "GA",
+    "cityCounty": "Douglas County (Winston)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglas-stream-winston"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "forsyth-technology-campus",
+    "name": "Forsyth Technology Campus",
+    "developer": "Trammell Crow Co.",
+    "state": "GA",
+    "cityCounty": "Forsyth (Monroe County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Forsyth City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-forsyth-technology-campus"
+      }
+    ],
+    "lat": 34.235309,
+    "lon": -84.1335644
+  },
+  {
+    "id": "wallace-jackson-data-center-campus",
+    "name": "Wallace Jackson Data Center Campus",
+    "developer": "Wallace Jackson LLC",
+    "state": "GA",
+    "cityCounty": "Griffin (Spalding County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Spalding County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/39bn-data-center-approved-for-construction-in-spalding-county-georgia/"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-spalding-wallace-jackson"
+      },
+      {
+        "url": "https://www.ajc.com/business/2026/01/whats-37b-and-larger-than-3-malls-georgias-next-potential-data-center/"
+      }
+    ],
+    "lat": 33.2468,
+    "lon": -84.2641
+  },
+  {
+    "id": "henderson-farms-data-center-campus",
+    "name": "Henderson Farms data center campus",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Hampton (Henry County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Hampton City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-hampton-henderson-farms-data-center"
+      }
+    ],
+    "lat": 33.3870578,
+    "lon": -84.2829784
+  },
+  {
+    "id": "pumpkin-technology-campus-pumpkin-center",
+    "name": "Pumpkin Technology Campus (Pumpkin Center)",
+    "developer": "Cloverleaf Infrastructure (Piedmont DevCo LLC)",
+    "state": "GA",
+    "cityCounty": "Harlem (Columbia County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Columbia County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-harlem-pumpkin-center"
+      },
+      {
+        "url": "https://www.wrdw.com/2026/02/04/columbia-co-passes-one-data-center-others-be-voted/"
+      }
+    ],
+    "lat": 33.4145834,
+    "lon": -82.3126237
+  },
+  {
+    "id": "bells-ferry-road-data-center-campus",
+    "name": "Bells Ferry Road data center campus",
+    "developer": "Grindcap / MMM Acquisitions",
+    "state": "GA",
+    "cityCounty": "Marietta (Cobb County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Marietta City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-marietta-bells-ferry-grindcap"
+      }
+    ],
+    "lat": 33.952845,
+    "lon": -84.5496054
+  },
+  {
+    "id": "prime-storage-data-center-delk-road",
+    "name": "Prime Storage data center (Delk Road)",
+    "developer": "Prime Storage",
+    "state": "GA",
+    "cityCounty": "Marietta (Cobb County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Marietta City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-marietta-prime-storage-delk-road"
+      }
+    ],
+    "lat": 33.952845,
+    "lon": -84.5496054
+  },
+  {
+    "id": "rumble-technology-campus",
+    "name": "Rumble Technology Campus",
+    "developer": "Cloverleaf Infrastructure",
+    "state": "GA",
+    "cityCounty": "Monroe County",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Monroe County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-monroe-rumble-technology-campus"
+      }
+    ],
+    "lat": 33.0142344,
+    "lon": -83.9044159
+  },
+  {
+    "id": "project-splice",
+    "name": "Project Splice",
+    "developer": "Premier Data Center Development",
+    "state": "GA",
+    "cityCounty": "Near Cordele (Crisp County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Crisp County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-crisp-project-splice"
+      }
+    ],
+    "lat": 31.9639,
+    "lon": -83.7735
+  },
+  {
+    "id": "project-azalea",
+    "name": "Project Azalea",
+    "developer": "Williams Brothers Development",
+    "state": "GA",
+    "cityCounty": "Near Thomson (McDuffie County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "McDuffie County Commission",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-mcduffie-project-azalea"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/project-azalea-mcduffie-county-data-center-ga--eab074c0-3474-4243-af57-1a2b31184d01"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/plans-filed-for-six-building-data-center-campus-outside-augusta-georgia/"
+      }
+    ],
+    "lat": 33.471,
+    "lon": -82.5057
+  },
+  {
+    "id": "project-sail",
+    "name": "Project Sail",
+    "developer": "Prologis (with Atlas Development)",
+    "state": "GA",
+    "cityCounty": "Newnan (Coweta County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Coweta County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://therealdeal.com/national/atlanta/2026/04/10/prologis-wins-approval-for-massive-georgia-data-center/"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-coweta-project-sail"
+      },
+      {
+        "url": "https://www.atlantanewsfirst.com/2026/04/08/coweta-county-commissioners-approve-rezoning-massive-data-center/"
+      }
+    ],
+    "lat": 33.3806716,
+    "lon": -84.7996573
+  },
+  {
+    "id": "project-camellia",
+    "name": "Project Camellia",
+    "developer": "OpenAI (local LLC Octans GA LLC)",
+    "state": "GA",
+    "cityCounty": "Rincon (Effingham County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Effingham County Industrial Development Authority; Board of Commissioners; Georgia PSC (power contract)",
+    "sources": [
+      {
+        "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-effingham-openai-project-camellia"
+      }
+    ],
+    "lat": 32.2960289,
+    "lon": -81.2353905
+  },
+  {
+    "id": "dc-blox-atlanta-east",
+    "name": "DC BLOX Atlanta East",
+    "developer": "DC BLOX",
+    "state": "GA",
+    "cityCounty": "Rockdale County (Farmer Road)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "Rockdale County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-conyers-dc-blox-atl-east"
+      },
+      {
+        "url": "https://www.gpb.org/news/2026/10/13/data-centers-do-use-lots-and-lots-of-water-maybe-not-where-or-how-you-think"
+      },
+      {
+        "url": "https://www.rockdalecountyga.gov/wp-content/uploads/2025/01/BOA-Agenda-Feb-2025.pdf"
+      },
+      {
+        "url": "https://www.apollotechnical.com/data-centers-in-georgia/"
+      }
+    ],
+    "lat": 33.6430283,
+    "lon": -84.0322064
+  },
+  {
+    "id": "east-hightower-trail-data-center",
+    "name": "East Hightower Trail data center",
+    "developer": "Dermody (per tracker)",
+    "state": "GA",
+    "cityCounty": "Social Circle (Walton County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Social Circle City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-social-circle-east-hightower-trail"
+      }
+    ],
+    "lat": 33.6563867,
+    "lon": -83.7186389
+  },
+  {
+    "id": "hawkins-academy-road-data-center",
+    "name": "Hawkins Academy Road data center",
+    "developer": "Atlas Development and WSG Land LLC",
+    "state": "GA",
+    "cityCounty": "Social Circle (Walton County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Social Circle City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-social-circle-hawkins-academy"
+      },
+      {
+        "url": "https://baxtel.com/campus/atlas-development-social-circle-ga"
+      }
+    ],
+    "lat": 33.6563867,
+    "lon": -83.7186389
+  },
+  {
+    "id": "project-spalding",
+    "name": "Project Spalding",
+    "developer": "Montana Property Group LLC",
+    "state": "GA",
+    "cityCounty": "Spalding County (High Falls Rd. and Alicia Dr.)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Spalding County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-spalding-project-spalding-high-falls"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/39bn-data-center-approved-for-construction-in-spalding-county-georgia/"
+      }
+    ],
+    "lat": 33.2591296,
+    "lon": -84.2770865
+  },
+  {
+    "id": "spalding-investments-data-center-campus",
+    "name": "Spalding Investments data center campus",
+    "developer": "Spalding Investments LLC",
+    "state": "GA",
+    "cityCounty": "Spalding County (High Falls Rd. and S. McDonough Rd.)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Spalding County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-griffin-spalding-investments"
+      }
+    ],
+    "lat": 33.2591296,
+    "lon": -84.2770865
+  },
+  {
+    "id": "burkhalter-road-data-center",
+    "name": "Burkhalter Road data center",
+    "developer": "4AM Development",
+    "state": "GA",
+    "cityCounty": "Statesboro (Bulloch County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Statesboro City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-statesboro-burkhalter-road"
+      },
+      {
+        "url": "https://www.wtoc.com/2026/08/04/statesboro-planning-commission-backs-proposed-data-center-rezoning-5-1-vote/"
+      },
+      {
+        "url": "https://wtoc.com/2026/08/19/statesboro-city-council-approves-rezoning-data-center-amid-protests"
+      },
+      {
+        "url": "https://wtoc.com/2026/09/22/group-sues-statesboro-over-data-center-rezoning"
+      }
+    ],
+    "lat": 32.4490141,
+    "lon": -81.7832912
+  },
+  {
+    "id": "pine-ridge-tech-park",
+    "name": "Pine Ridge Tech Park",
+    "developer": "EagleRock (tracker calls it Eagle Rock Twiggs Expansion)",
+    "state": "GA",
+    "cityCounty": "Twiggs County",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Twiggs County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-twiggs-pine-ridge-tech-park"
+      }
+    ],
+    "lat": 32.6467914,
+    "lon": -83.4351636
+  },
+  {
+    "id": "project-rita",
+    "name": "Project Rita",
+    "developer": "Microsoft",
+    "state": "GA",
+    "cityCounty": "Tyrone (Fayette County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Tyrone Town Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-tyrone-project-rita-microsoft"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-data-center-in-tyrone-georgia/"
+      }
+    ],
+    "lat": 33.4713249,
+    "lon": -84.5972005
+  },
+  {
+    "id": "microsoft-union-city-campus-stonewall-tell-road",
+    "name": "Microsoft Union City campus (Stonewall Tell Road)",
+    "developer": "Microsoft",
+    "state": "GA",
+    "cityCounty": "Union City (Fulton County)",
+    "stage": "Approved, Not Built",
+    "regulatoryBody": "Union City City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-union-city-microsoft-stonewall-tell"
+      }
+    ],
+    "lat": 33.5870558,
+    "lon": -84.5424299
+  },
+  {
+    "id": "digital-realty-west-end-data-center",
+    "name": "Digital Realty West End data center",
+    "developer": "Digital Realty",
+    "state": "GA",
+    "cityCounty": "Atlanta, West End (Fulton County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Atlanta City Council (zoning committee)",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/atlanta-southwest.html"
+      },
+      {
+        "url": "https://atlanta.capitalbnews.org/atlanta-data-center-marta-vote/"
+      }
+    ],
+    "lat": 33.7377321,
+    "lon": -84.4128528
+  },
+  {
+    "id": "nixon-technology-center",
+    "name": "Nixon Technology Center",
+    "developer": "3 G Investments LLC (owner: Nixon Trusts); no developer or end user named",
+    "state": "GA",
+    "cityCounty": "Augusta (Richmond County, 4-H Club Road)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Augusta Commission (rezoning and special exception); Augusta Planning; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-33-million-sq-ft-data-center-campus-in-augusta-georgia/"
+      },
+      {
+        "url": "https://www.yahoo.com/news/articles/another-data-center-could-coming-172520939.html"
+      },
+      {
+        "url": "https://www.wrdw.com/2026/10/14/383-acre-data-center-campus-proposed-off-mike-padgett-highway/"
+      }
+    ],
+    "lat": 33.3699,
+    "lon": -81.9645
+  },
+  {
+    "id": "project-blue-hole",
+    "name": "Project Blue Hole",
+    "developer": "QTS Data Centers",
+    "state": "GA",
+    "cityCounty": "Blakely (Early County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Early County / City of Blakely; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-blakely-qts-project-blue-hole"
+      }
+    ],
+    "lat": 31.3773475,
+    "lon": -84.9343388
+  },
+  {
+    "id": "possible-data-center-campus",
+    "name": "Possible data center campus",
+    "developer": "Canoochee River RV Resort LLC (DCA filer)",
+    "state": "GA",
+    "cityCounty": "Candler County (near Metter-Candler Airport)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Candler County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-candler-metter-airport-site"
+      },
+      {
+        "url": "https://baxtel.com/news/five-building-data-center-planned-in-metter-georgia"
+      }
+    ],
+    "lat": 32.4146577,
+    "lon": -82.0930776
+  },
+  {
+    "id": "project-ruby",
+    "name": "Project Ruby",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Columbus, Upatoi (Muscogee County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Columbus Consolidated Government",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-columbus-project-ruby"
+      }
+    ],
+    "lat": 32.54903,
+    "lon": -84.7319479
+  },
+  {
+    "id": "project-squash-wrightsboro-road",
+    "name": "Project Squash (Wrightsboro Road)",
+    "developer": "Kinetic Infrastructure Solutions (Google subsidiary), per tracker",
+    "state": "GA",
+    "cityCounty": "Harlem (Columbia County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Development Authority of Columbia County; Columbia County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-harlem-project-squash"
+      },
+      {
+        "url": "https://cryptobriefing.com/columbia-county-google-data-center-40-million-deal/"
+      }
+    ],
+    "lat": 33.4145834,
+    "lon": -82.3126237
+  },
+  {
+    "id": "project-arrowhead",
+    "name": "Project Arrowhead",
+    "developer": "Premier Data Center Development LLC",
+    "state": "GA",
+    "cityCounty": "Near Ocilla / Mystic (Irwin County)",
+    "stage": "Under Consideration",
+    "regulatoryBody": "Irwin County Board of Commissioners; Planning Commission; Georgia DCA (DRI #4689)",
+    "sources": [
+      {
+        "url": "https://wwals.net/2026/04/11/project-arrowhead-datacenter-dri-application-irwin-county-ga-2026-04-10/"
+      },
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-irwin-project-arrowhead"
+      }
+    ],
+    "lat": 31.546,
+    "lon": -83.3516
+  },
+  {
+    "id": "liberty-data-centers-campus",
+    "name": "Liberty Data Centers campus",
+    "developer": "Liberty Data Centers",
+    "state": "GA",
+    "cityCounty": "Americus (Sumter County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Americus City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-americus-liberty-data-centers"
+      }
+    ],
+    "lat": 32.0723862,
+    "lon": -84.2326876
+  },
+  {
+    "id": "athena-studios-data-center-proposal",
+    "name": "Athena Studios data center proposal",
+    "developer": "Athena Studios",
+    "state": "GA",
+    "cityCounty": "Athens-Clarke County",
+    "stage": "Proposed",
+    "regulatoryBody": "Athens-Clarke Mayor and Commission",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-athens-clarke-athena-studios"
+      }
+    ],
+    "lat": 33.9451737,
+    "lon": -83.4333233
+  },
+  {
+    "id": "1611-ellsworth-mixed-use-project-with-data-center",
+    "name": "1611 Ellsworth mixed-use project with data center",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Atlanta (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Atlanta City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-atlanta-1611-ellsworth"
+      }
+    ],
+    "lat": 33.7544657,
+    "lon": -84.3898151
+  },
+  {
+    "id": "project-bunkhouse",
+    "name": "Project Bunkhouse",
+    "developer": "Taurus Investment Holdings",
+    "state": "GA",
+    "cityCounty": "Bartow County",
+    "stage": "Proposed",
+    "regulatoryBody": "Bartow County Board of Commissioners; Georgia DCA (DRI #4433)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-bartow-project-bunkhouse"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/project-bunkhouse-ga--2e0d3ec7-3a56-4841-a2a8-4416f4905a00"
+      },
+      {
+        "url": "https://wbhfradio.org/an-8-6-million-square-foot-data-center-considered-for-bartow/"
+      }
+    ],
+    "lat": 34.2394683,
+    "lon": -84.8406984
+  },
+  {
+    "id": "project-springbank",
+    "name": "Project Springbank",
+    "developer": "Atlas Development",
+    "state": "GA",
+    "cityCounty": "Bartow County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Bartow County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-bartow-project-springbank"
+      },
+      {
+        "url": "https://www.daily-tribune.com/news/springbank-data-center-application-withdrawn/article_4038268b-78d8-5d26-9e10-2bf514aac3a3.html"
+      }
+    ],
+    "lat": 34.2394683,
+    "lon": -84.8406984
+  },
+  {
+    "id": "former-landfill-tract",
+    "name": "Former landfill tract",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Brantley County",
+    "stage": "Proposed",
+    "regulatoryBody": "Brantley County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-brantley-landfill-tract-data-center"
+      }
+    ],
+    "lat": 31.1928547,
+    "lon": -81.9943569
+  },
+  {
+    "id": "belfast-commerce-park-data-center",
+    "name": "Belfast Commerce Park data center",
+    "developer": "LN Compute",
+    "state": "GA",
+    "cityCounty": "Bryan County (Belfast Commerce Park)",
+    "stage": "Proposed",
+    "regulatoryBody": "Bryan County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/belfast-commerce-park-data-center-ln-compute-ga--04f16689-3597-4f7f-97c4-e1b743a6c79c"
+      }
+    ],
+    "lat": 32.0034889,
+    "lon": -81.4241017
+  },
+  {
+    "id": "highway-16-interstate-health-development",
+    "name": "Highway 16 Interstate Health Development",
+    "developer": "Jones family (land owned by father of Lt. Gov. Burt Jones)",
+    "state": "GA",
+    "cityCounty": "Butts County (Highway 16)",
+    "stage": "Proposed",
+    "regulatoryBody": "Butts County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-butts-highway-16-interstate-health"
+      },
+      {
+        "url": "https://georgiarecorder.com/2025/12/01/massive-burt-jones-backed-project-among-wave-of-data-centers-proposed-for-georgia/"
+      }
+    ],
+    "lat": 33.2825083,
+    "lon": -83.9548161
+  },
+  {
+    "id": "highway-53-data-center",
+    "name": "Highway 53 data center",
+    "developer": "Masterworks Atlanta",
+    "state": "GA",
+    "cityCounty": "Calhoun (Gordon County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Calhoun City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-calhoun-highway-53-masterworks"
+      }
+    ],
+    "lat": 31.5311784,
+    "lon": -84.614328
+  },
+  {
+    "id": "project-indo",
+    "name": "Project Indo",
+    "developer": "DataBank",
+    "state": "GA",
+    "cityCounty": "Cartersville (Bartow County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Cartersville City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-cartersville-project-indo"
+      }
+    ],
+    "lat": 34.1652304,
+    "lon": -84.7997613
+  },
+  {
+    "id": "switch-atlanta-north-keep-2-0",
+    "name": "Switch Atlanta North (KEEP 2.0)",
+    "developer": "Switch",
+    "state": "GA",
+    "cityCounty": "Cartersville (Bartow County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Cartersville City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-cartersville-switch-keep-2"
+      }
+    ],
+    "lat": 34.1652304,
+    "lon": -84.7997613
+  },
+  {
+    "id": "columbia-county-data-park",
+    "name": "Columbia County Data Park",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Columbia County",
+    "stage": "Proposed",
+    "regulatoryBody": "Columbia County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/columbia-county-data-park-ga--5dac1f89-de36-4e88-b826-2aca03b76be8"
+      }
+    ],
+    "lat": 33.5313102,
+    "lon": -82.2563979
+  },
+  {
+    "id": "gregory-road-data-center-campus",
+    "name": "Gregory Road data center campus",
+    "developer": "Universal Planning LLC (DRI filer)",
+    "state": "GA",
+    "cityCounty": "Covington (Newton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Covington City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-covington-gregory-road"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/plans-filed-for-14-million-sq-ft-data-center-campus-outside-atlanta-georgia/"
+      }
+    ],
+    "lat": 33.5966005,
+    "lon": -83.8598742
+  },
+  {
+    "id": "bridgeport-data-center-campus",
+    "name": "Bridgeport data center campus",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Coweta County",
+    "stage": "Proposed",
+    "regulatoryBody": "Coweta County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-coweta-bridgeport"
+      }
+    ],
+    "lat": 33.2868748,
+    "lon": -84.7679526
+  },
+  {
+    "id": "central-coweta-industrial-phase-ii",
+    "name": "Central Coweta Industrial Phase II",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Coweta County",
+    "stage": "Proposed",
+    "regulatoryBody": "Coweta County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-coweta-central-coweta-industrial-ii"
+      }
+    ],
+    "lat": 33.3500656,
+    "lon": -84.7545734
+  },
+  {
+    "id": "atlanta-va-medical-center-data-center-rebuild",
+    "name": "Atlanta VA Medical Center data center rebuild",
+    "developer": "U.S. Department of Veterans Affairs",
+    "state": "GA",
+    "cityCounty": "Decatur (DeKalb County)",
+    "stage": "Proposed",
+    "regulatoryBody": "U.S. Department of Veterans Affairs (federal)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/atlanta-vamc-ehrm-data-center-rebuild-joseph-maxwell-cleland-atlanta-va-medical--ga--0a121740-0406-44d2-ae72-2efdd09080b7"
+      }
+    ],
+    "lat": 30.8736613,
+    "lon": -84.5740953
+  },
+  {
+    "id": "aws-echo-road-land",
+    "name": "AWS Echo Road land",
+    "developer": "Amazon Web Services",
+    "state": "GA",
+    "cityCounty": "Douglas County (Echo Road)",
+    "stage": "Proposed",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglas-aws-echo-road"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "rock-house-road-data-center-site",
+    "name": "Rock House Road data center site",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Douglas County (Rock House Road)",
+    "stage": "Proposed",
+    "regulatoryBody": "Douglas County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglas-rock-house-road"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "t5-atl-iv-gullatt-road",
+    "name": "T5 ATL IV (Gullatt Road)",
+    "developer": "T5 Data Centers",
+    "state": "GA",
+    "cityCounty": "Fairburn (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Fairburn City Council; Georgia DCA (DRI #4465)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-fairburn-t5-atl-iv"
+      }
+    ],
+    "lat": 33.5670562,
+    "lon": -84.5810418
+  },
+  {
+    "id": "fairburn-technology-center-bohannon-drive",
+    "name": "Fairburn Technology Center (Bohannon Drive)",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Fairburn (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Fairburn City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-fairburn-technology-center"
+      }
+    ],
+    "lat": 33.5670562,
+    "lon": -84.5810418
+  },
+  {
+    "id": "project-gracie",
+    "name": "Project Gracie",
+    "developer": "Atlas Development",
+    "state": "GA",
+    "cityCounty": "Floyd County (Coosa)",
+    "stage": "Proposed",
+    "regulatoryBody": "Floyd County Board of Commissioners; Georgia DCA (DRI #4448)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-floyd-project-gracie-coosa"
+      }
+    ],
+    "lat": 34.2421984,
+    "lon": -85.2229248
+  },
+  {
+    "id": "fort-gillem-campus-atl15-atl16",
+    "name": "Fort Gillem campus (ATL15/ATL16)",
+    "developer": "Digital Realty",
+    "state": "GA",
+    "cityCounty": "Forest Park (Clayton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Forest Park City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-forest-park-fort-gillem-digital-realty"
+      }
+    ],
+    "lat": 33.6220542,
+    "lon": -84.3690918
+  },
+  {
+    "id": "rocky-creek-road-data-center",
+    "name": "Rocky Creek Road data center",
+    "developer": "Red Wolf DCD Properties",
+    "state": "GA",
+    "cityCounty": "Henry County (Rocky Creek Road)",
+    "stage": "Proposed",
+    "regulatoryBody": "Henry County Board of Commissioners; Georgia DCA (DRI #4198)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-henry-red-wolf-rocky-creek"
+      }
+    ],
+    "lat": 33.4519942,
+    "lon": -84.1367771
+  },
+  {
+    "id": "strickland-tract-data-center",
+    "name": "Strickland Tract data center",
+    "developer": "Red Wolf DCD Properties",
+    "state": "GA",
+    "cityCounty": "Henry County (Strickland Tract)",
+    "stage": "Proposed",
+    "regulatoryBody": "Henry County Board of Commissioners; Georgia DCA (DRI #4251)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-henry-red-wolf-strickland-tract"
+      }
+    ],
+    "lat": 33.4519942,
+    "lon": -84.1367771
+  },
+  {
+    "id": "hightower-road-land",
+    "name": "Hightower Road land",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Hogansville (Troup County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Hogansville City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-hogansville-hightower-road"
+      }
+    ],
+    "lat": 33.1731769,
+    "lon": -84.914936
+  },
+  {
+    "id": "wayne-commerce-center-site",
+    "name": "Wayne Commerce Center site",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Jesup (Wayne County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Jesup City Commission",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-jesup-wayne-commerce-center"
+      }
+    ],
+    "lat": 31.6074365,
+    "lon": -81.8853924
+  },
+  {
+    "id": "kingston-technology-hub",
+    "name": "Kingston Technology Hub",
+    "developer": "Thor Equities",
+    "state": "GA",
+    "cityCounty": "Kingston (Bartow County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Kingston City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-kingston-technology-hub"
+      },
+      {
+        "url": "https://www.newslinelocal.com/2026/09/08/another-large-data-center-proposed-in-georgia/"
+      }
+    ],
+    "lat": 34.2367172,
+    "lon": -84.9450325
+  },
+  {
+    "id": "project-west",
+    "name": "Project West",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "LaGrange (Troup County)",
+    "stage": "Proposed",
+    "regulatoryBody": "LaGrange City Council; Georgia DCA (DRI #4414)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-lagrange-project-west"
+      }
+    ],
+    "lat": 33.039291,
+    "lon": -85.0313269
+  },
+  {
+    "id": "project-crow",
+    "name": "Project Crow",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "LaGrange (Troup County)",
+    "stage": "Proposed",
+    "regulatoryBody": "LaGrange City Council",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/project-crow-lagrange-ga--9514c48c-de1b-4d88-bcb1-207720e47c62"
+      }
+    ],
+    "lat": 33.039291,
+    "lon": -85.0313269
+  },
+  {
+    "id": "amazon-data-center-land-high-falls-park-road",
+    "name": "Amazon data center land (High Falls Park Road)",
+    "developer": "Amazon Web Services",
+    "state": "GA",
+    "cityCounty": "Lamar County",
+    "stage": "Proposed",
+    "regulatoryBody": "Lamar County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-lamar-amazon-high-falls-park-road"
+      },
+      {
+        "url": "https://ajc-ajc-prod.cdn.arcpublishing.com/business/2025/10/10b-hospital-project-backed-by-burt-jones-includes-sea-of-data-centers"
+      }
+    ],
+    "lat": 33.0649401,
+    "lon": -84.1445952
+  },
+  {
+    "id": "stack-atl02-expansion",
+    "name": "Stack ATL02 expansion",
+    "developer": "Stack Infrastructure",
+    "state": "GA",
+    "cityCounty": "Lithia Springs (Douglas County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Douglas County Board of Commissioners; Georgia DCA (DRI #4326)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-lithia-springs-stack-atl02"
+      }
+    ],
+    "lat": 33.7797505,
+    "lon": -84.6506401
+  },
+  {
+    "id": "east-hiawatha-street-site",
+    "name": "East Hiawatha Street site",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Metter (Candler County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Metter City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-metter-east-hiawatha-site"
+      }
+    ],
+    "lat": 32.397118,
+    "lon": -82.0601196
+  },
+  {
+    "id": "google-land-for-possible-data-center",
+    "name": "Google land for possible data center",
+    "developer": "Google",
+    "state": "GA",
+    "cityCounty": "Monroe County (Rumble Road)",
+    "stage": "Proposed",
+    "regulatoryBody": "Monroe County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-monroe-google-rumble-road"
+      }
+    ],
+    "lat": 33.0142344,
+    "lon": -83.9044159
+  },
+  {
+    "id": "mine-lake-data-center-site",
+    "name": "Mine Lake data center site",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Monticello (Jasper County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Monticello City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-monticello-mine-lake"
+      }
+    ],
+    "lat": 33.3044654,
+    "lon": -83.684096
+  },
+  {
+    "id": "meta-newton-county-ai-campus",
+    "name": "Meta Newton County AI campus",
+    "developer": "Meta",
+    "state": "GA",
+    "cityCounty": "Newton County",
+    "stage": "Proposed",
+    "regulatoryBody": "Newton County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/meta-newton-county-ai-campus-ga--da1a0ac4-7d52-4af0-942c-75330c846b60"
+      }
+    ],
+    "lat": 33.5715512,
+    "lon": -83.8446101
+  },
+  {
+    "id": "grind-capital-data-center",
+    "name": "Grind Capital data center",
+    "developer": "Grind Capital Group",
+    "state": "GA",
+    "cityCounty": "Rockdale County (Conyers)",
+    "stage": "Proposed",
+    "regulatoryBody": "Rockdale County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/grind-capital-data-center-grind-capital-group-conyers-ga--3734cfdf-12aa-4f94-81e1-8b34bfe3587c"
+      }
+    ],
+    "lat": 33.6430283,
+    "lon": -84.0322064
+  },
+  {
+    "id": "rockdale-technology-park-1",
+    "name": "Rockdale Technology Park 1",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Rockdale County (Sigman Road)",
+    "stage": "Proposed",
+    "regulatoryBody": "Rockdale County Board of Commissioners; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-conyers-rockdale-technology-park-1"
+      }
+    ],
+    "lat": 33.6430283,
+    "lon": -84.0322064
+  },
+  {
+    "id": "bridgtrk-quantum-communications-node",
+    "name": "BridgTRK Quantum Communications Node",
+    "developer": "BridgTRK",
+    "state": "GA",
+    "cityCounty": "Rossville (Walker County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Rossville City Council (by jurisdiction; no vote found)",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/bridgtrk-quantum-communications-node-rossville-ga--ee8c7d86-b0a8-4a4b-92ad-8590303f9480"
+      }
+    ],
+    "lat": 34.983376,
+    "lon": -85.28603
+  },
+  {
+    "id": "social-circle-technology-park",
+    "name": "Social Circle Technology Park",
+    "developer": "TPA Group / SC Infrastructure",
+    "state": "GA",
+    "cityCounty": "Social Circle (Newton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Social Circle City Council; Georgia DCA (DRI #4426)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-social-circle-sc-infrastructure-technology-park"
+      }
+    ],
+    "lat": 33.6562,
+    "lon": -83.7182
+  },
+  {
+    "id": "sailfish-data-center-social-circle-parkway",
+    "name": "Sailfish data center (Social Circle Parkway)",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Social Circle (Walton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Social Circle City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-social-circle-sailfish-parkway"
+      }
+    ],
+    "lat": 33.6563867,
+    "lon": -83.7186389
+  },
+  {
+    "id": "1402-roy-malcom-road-data-center",
+    "name": "1402 Roy Malcom Road data center",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Social Circle (Walton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Social Circle City Council; Planning Commission",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-social-circle-1402-roy-malcom"
+      }
+    ],
+    "lat": 33.6563867,
+    "lon": -83.7186389
+  },
+  {
+    "id": "vantage-westlake-site",
+    "name": "Vantage Westlake site",
+    "developer": "Vantage Data Centers",
+    "state": "GA",
+    "cityCounty": "South Fulton (Fulton County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "South Fulton City Council; Georgia DCA (DRI #4256)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-south-fulton-vantage-westlake"
+      },
+      {
+        "url": "https://baxtel.com/data-center/vantage-ga22"
+      }
+    ],
+    "lat": 33.5902659,
+    "lon": -84.6712292
+  },
+  {
+    "id": "vantage-stacks-road-site",
+    "name": "Vantage Stacks Road site",
+    "developer": "Vantage Data Centers",
+    "state": "GA",
+    "cityCounty": "South Fulton (Fulton County)",
+    "stage": "Construction in Progress",
+    "regulatoryBody": "South Fulton City Council; Georgia DCA (DRI #4257)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-south-fulton-vantage-stacks-road"
+      },
+      {
+        "url": "https://baxtel.com/data-center/vantage-ga11"
+      }
+    ],
+    "lat": 33.5902659,
+    "lon": -84.6712292
+  },
+  {
+    "id": "stonewall-tell-data-center",
+    "name": "Stonewall Tell data center",
+    "developer": "RSC Investment Management",
+    "state": "GA",
+    "cityCounty": "South Fulton (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "South Fulton City Council; Georgia DCA (DRI #4342)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-south-fulton-stonewall-tell-rsc"
+      }
+    ],
+    "lat": 33.5902659,
+    "lon": -84.6712292
+  },
+  {
+    "id": "georgia-tallapoosa-land-deal",
+    "name": "Georgia-Tallapoosa land deal",
+    "developer": "Georgia-Tallapoosa LLC",
+    "state": "GA",
+    "cityCounty": "Tallapoosa (Haralson County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Tallapoosa City Council (annexed and rezoned; final approval needed before development); Haralson County Board of Commissioners and Development Authority (land sale)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-tallapoosa-georgia-tallapoosa-llc"
+      },
+      {
+        "url": "https://tallapoosaga.gov/wp-content/uploads/2026/05/City-Announcement.pdf"
+      },
+      {
+        "url": "https://www.fox5atlanta.com/news/keep-haralson-rural-residents-fight-potential-data-center-deal"
+      }
+    ],
+    "lat": 33.7442912,
+    "lon": -85.2879889
+  },
+  {
+    "id": "atl11-stonewall-tell-road",
+    "name": "ATL11 (Stonewall Tell Road)",
+    "developer": "Burr Computer Environments Inc. (DRI filer); AJC suggests Microsoft",
+    "state": "GA",
+    "cityCounty": "Union City (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Union City City Council; Georgia DCA (DRI #4235)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-union-city-atl11"
+      },
+      {
+        "url": "https://direct.datacenterdynamics.com/en/news/21-million-sq-ft-data-center-campus-proposed-outside-atlanta-georgia"
+      }
+    ],
+    "lat": 33.5870558,
+    "lon": -84.5424299
+  },
+  {
+    "id": "microsoft-atl50",
+    "name": "Microsoft ATL50",
+    "developer": "Microsoft",
+    "state": "GA",
+    "cityCounty": "Union City (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Union City City Council; Georgia DCA (DRI #4843)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-union-city-microsoft-atl50"
+      }
+    ],
+    "lat": 33.5870558,
+    "lon": -84.5424299
+  },
+  {
+    "id": "ta-realty-atl03-red-oak",
+    "name": "TA Realty ATL03 / Red Oak",
+    "developer": "TA Realty",
+    "state": "GA",
+    "cityCounty": "Union City (Fulton County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Union City City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-union-city-ta-realty-red-oak"
+      }
+    ],
+    "lat": 33.5870558,
+    "lon": -84.5424299
+  },
+  {
+    "id": "avemore-technology-and-data-park",
+    "name": "Avemore technology and data park",
+    "developer": "Atlas Development",
+    "state": "GA",
+    "cityCounty": "Villa Rica (Carroll County)",
+    "stage": "Proposed",
+    "regulatoryBody": "Villa Rica City Council; Georgia DCA (DRI)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-villa-rica-avemore"
+      }
+    ],
+    "lat": 33.732,
+    "lon": -84.9191
+  },
+  {
+    "id": "data-center-moratorium-expired-and-new-ordinance",
+    "name": "Data center moratorium (expired) and new ordinance",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Augusta (Richmond County)",
+    "stage": "",
+    "regulatoryBody": "Augusta Commission",
+    "sources": [
+      {
+        "url": "https://www.wrdw.com/2026/10/14/383-acre-data-center-campus-proposed-off-mike-padgett-highway/"
+      }
+    ],
+    "lat": 33.4709714,
+    "lon": -81.9748429
+  },
+  {
+    "id": "brown-farm-road-data-center",
+    "name": "Brown Farm Road data center",
+    "developer": "Oakley Real Estate Partners",
+    "state": "GA",
+    "cityCounty": "Bartow County (Brown Farm Road)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Bartow County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-bartow-brown-farm-road"
+      },
+      {
+        "url": "https://www.daily-tribune.com/news/bcpc-will-hear-brown-farm-road-data-center-aug-24/article_f2e204c3-ae4c-5909-9072-55f6ba6ac578.html"
+      }
+    ],
+    "lat": 34.2394683,
+    "lon": -84.8406984
+  },
+  {
+    "id": "t5-atl-iv-coweta-site",
+    "name": "T5 ATL IV (Coweta site)",
+    "developer": "T5 Data Centers",
+    "state": "GA",
+    "cityCounty": "Coweta County",
+    "stage": "",
+    "regulatoryBody": "Coweta County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-coweta-t5-atl-iv"
+      }
+    ],
+    "lat": 33.3500656,
+    "lon": -84.7545734
+  },
+  {
+    "id": "old-boy-scout-camp-site",
+    "name": "Old Boy Scout camp site",
+    "developer": "Beltline Energy (per tracker)",
+    "state": "GA",
+    "cityCounty": "Crawford County (Byron area)",
+    "stage": "",
+    "regulatoryBody": "Crawford County / Byron City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-byron-boy-scout-road"
+      },
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/byron-boy-scout-camp-data-center-beltline-energy-crawford-county-ga--af64dc6e-2abc-431e-9791-6cc59bb89fc9"
+      }
+    ],
+    "lat": 32.7212675,
+    "lon": -83.9825337
+  },
+  {
+    "id": "coleman-road-site",
+    "name": "Coleman Road site",
+    "developer": "DC BLOX (per tracker URL; not stated in summary)",
+    "state": "GA",
+    "cityCounty": "Lowndes County (north Valdosta)",
+    "stage": "",
+    "regulatoryBody": "Lowndes County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-lowndes-coleman-road-dc-blox"
+      }
+    ],
+    "lat": 30.8195619,
+    "lon": -83.2628255
+  },
+  {
+    "id": "old-elberton-road-data-center",
+    "name": "Old Elberton Road data center",
+    "developer": "FAE Clark LLC",
+    "state": "GA",
+    "cityCounty": "Athens-Clarke County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Athens-Clarke Mayor and Commission",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-athens-clarke-old-elberton-road"
+      }
+    ],
+    "lat": 33.9451737,
+    "lon": -83.4333233
+  },
+  {
+    "id": "county-data-center-moratorium",
+    "name": "County data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Bulloch County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Bulloch County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://thecurrentga.org/2026/04/15/glynn-county-to-vote-on-zoning-residents-ask-to-delay-data-center-rule/"
+      },
+      {
+        "url": "https://www.newsbreak.com/stillmore-ga-municipal"
+      }
+    ],
+    "lat": 32.3846338,
+    "lon": -81.744832
+  },
+  {
+    "id": "data-center-moratorium",
+    "name": "Data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Cherokee County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Cherokee County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/cherokee-moratorium.html"
+      },
+      {
+        "url": "https://www.atlantanewsfirst.com/2026/07/22/cherokee-county-approves-data-center-moratorium/"
+      }
+    ],
+    "lat": 34.2391265,
+    "lon": -84.4720272
+  },
+  {
+    "id": "byrd-farms-technology-campus",
+    "name": "Byrd Farms Technology Campus",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Columbia County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Columbia County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-columbia-byrd-farms"
+      }
+    ],
+    "lat": 33.5313102,
+    "lon": -82.2563979
+  },
+  {
+    "id": "project-oak",
+    "name": "Project Oak",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Coweta County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Coweta County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-coweta-project-oak"
+      }
+    ],
+    "lat": 33.3500656,
+    "lon": -84.7545734
+  },
+  {
+    "id": "shadowbox-studios-data-center",
+    "name": "Shadowbox Studios data center",
+    "developer": "Shadowbox Studios",
+    "state": "GA",
+    "cityCounty": "DeKalb County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "DeKalb County Board of Commissioners; Zoning Board of Appeals",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-dekalb-shadowbox-studios"
+      }
+    ],
+    "lat": 33.7575613,
+    "lon": -84.2186508
+  },
+  {
+    "id": "ellenwood-data-center",
+    "name": "Ellenwood data center",
+    "developer": "PCC-DeKalb LLC",
+    "state": "GA",
+    "cityCounty": "DeKalb County (Ellenwood)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "DeKalb County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-dekalb-ellenwood-pcc"
+      }
+    ],
+    "lat": 33.7575613,
+    "lon": -84.2186508
+  },
+  {
+    "id": "county-data-center-moratorium",
+    "name": "County data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Decatur County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Decatur County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://thecurrentga.org/2026/04/15/glynn-county-to-vote-on-zoning-residents-ask-to-delay-data-center-rule/"
+      }
+    ],
+    "lat": 30.8736613,
+    "lon": -84.5740953
+  },
+  {
+    "id": "hickman-property-campus",
+    "name": "Hickman Property campus",
+    "developer": "EdgeConneX (applicant East Village Dothan LLC)",
+    "state": "GA",
+    "cityCounty": "Douglas County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Douglas County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-douglas-hickman-property-edgeconnex"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/county-officials-deny-data-center-zoning-request-in-georgia/"
+      }
+    ],
+    "lat": 33.6995565,
+    "lon": -84.7622973
+  },
+  {
+    "id": "highway-85-north-data-center",
+    "name": "Highway 85 North data center",
+    "developer": "Crow Holdings",
+    "state": "GA",
+    "cityCounty": "Fayetteville (Fayette County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Fayetteville City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-fayetteville-highway-85-crow"
+      }
+    ],
+    "lat": 33.4487257,
+    "lon": -84.4549262
+  },
+  {
+    "id": "dixon-data-center",
+    "name": "Dixon data center",
+    "developer": "Atlas Development",
+    "state": "GA",
+    "cityCounty": "Floyd County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Floyd County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-floyd-dixon-atlas"
+      }
+    ],
+    "lat": 34.2421984,
+    "lon": -85.2229248
+  },
+  {
+    "id": "90-day-data-center-moratorium",
+    "name": "90-day data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Forest Park (Clayton County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Forest Park",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/cherokee-moratorium.html"
+      }
+    ],
+    "lat": 33.6220542,
+    "lon": -84.3690918
+  },
+  {
+    "id": "big-red-apple-innovation-corridor",
+    "name": "Big Red Apple Innovation Corridor",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Habersham County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Cornelia City Council (annexation)",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-habersham-big-red-apple-corridor"
+      }
+    ],
+    "lat": 34.6270741,
+    "lon": -83.5016755
+  },
+  {
+    "id": "project-turbo-o-kelly-road",
+    "name": "Project Turbo (O'Kelly Road)",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Hall County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Hall County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-hall-project-turbo"
+      }
+    ],
+    "lat": 34.2905901,
+    "lon": -83.8194028
+  },
+  {
+    "id": "irwin-forward-tech-park",
+    "name": "Irwin Forward Tech Park",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Irwinville (Irwin County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Irwinville City Council",
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/12gw-data-center-campus-proposed-in-irwin-county-georgia/"
+      },
+      {
+        "url": "https://wwals.net/tag/datacenter/"
+      }
+    ],
+    "lat": 31.6482408,
+    "lon": -83.3826591
+  },
+  {
+    "id": "crooked-creek-technology-park",
+    "name": "Crooked Creek Technology Park",
+    "developer": "EagleRock",
+    "state": "GA",
+    "cityCounty": "Jones County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Jones County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-jones-crooked-creek-eaglerock"
+      }
+    ],
+    "lat": 33.0137673,
+    "lon": -83.5566716
+  },
+  {
+    "id": "i-95-industrial-park-and-data-center",
+    "name": "I-95 industrial park and data center",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Kingsland (Camden County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Kingsland City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-kingsland-laurel-island-parkway"
+      }
+    ],
+    "lat": 30.7999563,
+    "lon": -81.6898261
+  },
+  {
+    "id": "120-day-data-center-moratorium",
+    "name": "120-day data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Liberty County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Liberty County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://www.wjcl.com/article/liberty-county-120-day-moratorium-data-centers/74157659"
+      },
+      {
+        "url": "https://coastalcourier.com/news/county-approves-120-day-moratorium-on-data-centers/"
+      }
+    ],
+    "lat": 31.8031632,
+    "lon": -81.483441
+  },
+  {
+    "id": "stillwater-technology-park",
+    "name": "Stillwater Technology Park",
+    "developer": "Stillwater Development",
+    "state": "GA",
+    "cityCounty": "Lovejoy (Clayton County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Lovejoy City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-lovejoy-stillwater-technology-park"
+      },
+      {
+        "url": "https://www.theloadreport.com/projects/south-clayton.html"
+      }
+    ],
+    "lat": 33.4362245,
+    "lon": -84.3143675
+  },
+  {
+    "id": "citywide-data-center-ban",
+    "name": "Citywide data center ban",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Lovejoy (Clayton County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Lovejoy",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/south-clayton.html"
+      },
+      {
+        "url": "https://www.atlantanewsfirst.com/2026/09/29/city-lovejoy-passes-ordinance-banning-data-center-construction/"
+      }
+    ],
+    "lat": 33.4362245,
+    "lon": -84.3143675
+  },
+  {
+    "id": "bolingbroke-technology-campus",
+    "name": "Bolingbroke Technology Campus",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Monroe County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Monroe County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-monroe-bolingbroke-technology-campus"
+      }
+    ],
+    "lat": 33.0142344,
+    "lon": -83.9044159
+  },
+  {
+    "id": "county-data-center-moratorium",
+    "name": "County data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Monroe County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Monroe County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://thecurrentga.org/2026/04/15/glynn-county-to-vote-on-zoning-residents-ask-to-delay-data-center-rule/"
+      }
+    ],
+    "lat": 33.0142344,
+    "lon": -83.9044159
+  },
+  {
+    "id": "cason-road-bitcoin-mining-data-center",
+    "name": "Cason Road bitcoin mining data center",
+    "developer": "LN8 Energy",
+    "state": "GA",
+    "cityCounty": "Pierce County (near Blackshear)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Pierce County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-pierce-ln-compute-bitcoin-mine"
+      }
+    ],
+    "lat": 31.3430068,
+    "lon": -82.2352189
+  },
+  {
+    "id": "citywide-data-center-ban",
+    "name": "Citywide data center ban",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Richmond Hill (Bryan County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Richmond Hill",
+    "sources": [
+      {
+        "url": "https://morethanjustparks.com/data-center-tracker/richmond-hill-data-center-ban-ga--55b77ce7-0cf6-4cb5-8f13-554d628c156c"
+      }
+    ],
+    "lat": 31.9382381,
+    "lon": -81.3035515
+  },
+  {
+    "id": "project-rockforge",
+    "name": "Project Rockforge",
+    "developer": "Grind Capital / MMM Acquisitions",
+    "state": "GA",
+    "cityCounty": "Rockdale County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Rockdale County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-conyers-project-rockforge"
+      }
+    ],
+    "lat": 33.6430283,
+    "lon": -84.0322064
+  },
+  {
+    "id": "battey-business-complex-data-center",
+    "name": "Battey Business Complex data center",
+    "developer": "Atlas Development",
+    "state": "GA",
+    "cityCounty": "Rome (Floyd County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Rome City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-rome-battey-atlas"
+      }
+    ],
+    "lat": 34.257038,
+    "lon": -85.1646726
+  },
+  {
+    "id": "75-south-data-center-campus-tomochichi-road",
+    "name": "75 South data center campus (Tomochichi Road)",
+    "developer": "Not identified in sources",
+    "state": "GA",
+    "cityCounty": "Spalding County",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Spalding County Board of Commissioners",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-spalding-75-south"
+      }
+    ],
+    "lat": 33.2591296,
+    "lon": -84.2770865
+  },
+  {
+    "id": "project-bus",
+    "name": "Project Bus",
+    "developer": "Atlas Development",
+    "state": "GA",
+    "cityCounty": "Temple (Carroll County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "Temple City Council",
+    "sources": [
+      {
+        "url": "https://nearbydatacenters.org/projects/ga-temple-project-bus"
+      }
+    ],
+    "lat": 33.7370514,
+    "lon": -85.032445
+  },
+  {
+    "id": "six-month-data-center-moratorium",
+    "name": "Six-month data center moratorium",
+    "developer": "N/A (local policy)",
+    "state": "GA",
+    "cityCounty": "Warner Robins (Houston County)",
+    "stage": "Stopped or Paused",
+    "regulatoryBody": "City of Warner Robins",
+    "sources": [
+      {
+        "url": "https://www.theloadreport.com/projects/warner-robins.html"
+      },
+      {
+        "url": "https://www.41nbc.com/warner-robins-data-center-moratorium/"
+      }
+    ],
+    "lat": 32.6200973,
+    "lon": -83.606568
+  }
+]

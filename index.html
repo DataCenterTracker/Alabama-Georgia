@@ -8,10 +8,12 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   :root {
-    --green: #2ecc40;
-    --amber: #ff9800;
-    --red: #e74c3c;
-    --gray: #999;
+    --proposed: #2ecc40;
+    --consideration: #3498db;
+    --approved: #ff9800;
+    --construction: #e74c3c;
+    --completed: #8e44ad;
+    --stopped: #999;
     --bg: #f5f6fa;
     --card-bg: #fff;
     --text: #222;
@@ -25,40 +27,37 @@
   header { padding: 16px; background: #1a1a2e; color: #fff; }
   header h1 { font-size: 1.25rem; }
 
-  #controls { display: flex; flex-wrap: wrap; gap: 10px; padding: 12px 16px; background: var(--card-bg); border-bottom: 1px solid var(--border); align-items: center; }
+  #controls { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; background: var(--card-bg); border-bottom: 1px solid var(--border); align-items: center; }
   #controls label { font-size: 0.85rem; font-weight: 600; }
-  #controls select, #controls button { font-size: 0.85rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 4px; background: #fff; cursor: pointer; }
+  #controls select, #controls button { font-size: 0.8rem; padding: 4px 10px; border: 1px solid var(--border); border-radius: 4px; background: #fff; cursor: pointer; }
   #controls button.active { background: #1a1a2e; color: #fff; }
 
   #map { width: 100%; height: 55vh; min-height: 320px; }
 
-  .legend { position: absolute; bottom: 24px; right: 16px; background: rgba(255,255,255,.92); padding: 10px 14px; border-radius: 6px; font-size: 0.8rem; z-index: 1000; box-shadow: 0 1px 4px rgba(0,0,0,.15); line-height: 1.7; }
+  .legend { position: absolute; bottom: 24px; right: 16px; background: rgba(255,255,255,.92); padding: 10px 14px; border-radius: 6px; font-size: 0.78rem; z-index: 1000; box-shadow: 0 1px 4px rgba(0,0,0,.15); line-height: 1.7; }
   .legend-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
 
   #detail { display: none; max-width: 900px; margin: 16px auto; padding: 20px 24px; background: var(--card-bg); border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,.08); }
   #detail.open { display: block; }
   #detail h2 { font-size: 1.15rem; margin-bottom: 2px; }
-  #detail .operator { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 8px; }
+  #detail .developer { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 8px; }
   .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; color: var(--badge-text); text-transform: uppercase; letter-spacing: .4px; }
-  .badge-proposed  { background: var(--green); }
-  .badge-approved  { background: var(--amber); }
-  .badge-active    { background: var(--red); }
-  .badge-cancelled { background: var(--gray); }
+  .badge-proposed       { background: var(--proposed); }
+  .badge-consideration  { background: var(--consideration); }
+  .badge-approved       { background: var(--approved); }
+  .badge-construction   { background: var(--construction); }
+  .badge-completed      { background: var(--completed); }
+  .badge-stopped        { background: var(--stopped); }
   #detail .meta { margin: 10px 0; font-size: 0.9rem; color: var(--text-muted); }
   #detail .meta span { margin-right: 18px; }
-  #detail .notes { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
+  #detail .regulatory { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
 
   #detail h3 { font-size: 0.95rem; margin: 16px 0 6px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
-  .timeline { list-style: none; padding-left: 0; }
-  .timeline li { position: relative; padding: 6px 0 6px 20px; font-size: 0.88rem; line-height: 1.5; border-left: 2px solid var(--border); margin-left: 6px; }
-  .timeline li::before { content: ''; position: absolute; left: -5px; top: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--amber); }
-  .timeline .date { font-weight: 600; }
 
   .sources-list { list-style: none; padding-left: 0; }
   .sources-list li { padding: 4px 0; font-size: 0.88rem; }
-  .sources-list a { color: #2563eb; text-decoration: none; }
+  .sources-list a { color: #2563eb; text-decoration: none; word-break: break-all; }
   .sources-list a:hover { text-decoration: underline; }
-  .sources-list .pub { color: var(--text-muted); font-size: 0.82rem; }
 
   #no-detail { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 0.95rem; }
 
@@ -80,11 +79,14 @@
     <option value="AL">Alabama</option>
     <option value="GA">Georgia</option>
   </select>
-  <label>Status:</label>
-  <button class="status-btn active" data-status="all">All</button>
-  <button class="status-btn" data-status="proposed">Proposed</button>
-  <button class="status-btn" data-status="approved">Approved</button>
-  <button class="status-btn" data-status="active">Active</button>
+  <label>Stage:</label>
+  <button class="stage-btn active" data-stage="all">All</button>
+  <button class="stage-btn" data-stage="proposed">Proposed</button>
+  <button class="stage-btn" data-stage="consideration">Under Consideration</button>
+  <button class="stage-btn" data-stage="approved">Approved</button>
+  <button class="stage-btn" data-stage="construction">Construction</button>
+  <button class="stage-btn" data-stage="completed">Completed</button>
+  <button class="stage-btn" data-stage="stopped">Stopped</button>
 </div>
 
 <div id="map"></div>
@@ -93,30 +95,35 @@
 <div id="detail"></div>
 
 <footer style="text-align:center;padding:16px;font-size:0.8rem;color:#888;">
-  Data from <a href="https://www.compute-atlas.com" style="color:#2563eb;">Compute Atlas</a> by Edward Kubiak, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" style="color:#2563eb;">CC BY 4.0</a>.
+  Data from <a href="https://www.compute-atlas.com" style="color:#2563eb;">Compute Atlas</a> by Edward Kubiak (<a href="https://creativecommons.org/licenses/by/4.0/" style="color:#2563eb;">CC BY 4.0</a>) and original research.
 </footer>
 
 <script>
-const STATUS_MAP = {
-  proposed: 'proposed',
-  permitted: 'approved',
-  under_construction: 'active',
-  operational: 'active',
-  cancelled: 'cancelled'
+const STAGE_MAP = {
+  'Proposed': 'proposed',
+  'Under Consideration': 'consideration',
+  'Approved, Not Built': 'approved',
+  'Construction in Progress': 'construction',
+  'Completed': 'completed',
+  'Stopped or Paused': 'stopped'
 };
 
-const STATUS_COLOR = {
+const STAGE_COLOR = {
   proposed: '#2ecc40',
+  consideration: '#3498db',
   approved: '#ff9800',
-  active: '#e74c3c',
-  cancelled: '#999'
+  construction: '#e74c3c',
+  completed: '#8e44ad',
+  stopped: '#999'
 };
 
-const STATUS_LABEL = {
+const STAGE_LABEL = {
   proposed: 'Proposed',
-  approved: 'Approved',
-  active: 'Active',
-  cancelled: 'Cancelled'
+  consideration: 'Under Consideration',
+  approved: 'Approved, Not Built',
+  construction: 'Construction in Progress',
+  completed: 'Completed',
+  stopped: 'Stopped / Paused'
 };
 
 function markerIcon(color) {
@@ -128,7 +135,7 @@ function markerIcon(color) {
   });
 }
 
-let map, markers = [], facilities = [], activeMarker = null;
+let map, markers = [], facilities = [];
 
 function initMap() {
   map = L.map('map').setView([33.0, -85.5], 7);
@@ -140,10 +147,9 @@ function initMap() {
   const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'legend');
-    div.innerHTML =
-      `<div><span class="legend-dot" style="background:${STATUS_COLOR.proposed}"></span>Proposed</div>` +
-      `<div><span class="legend-dot" style="background:${STATUS_COLOR.approved}"></span>Approved</div>` +
-      `<div><span class="legend-dot" style="background:${STATUS_COLOR.active}"></span>Active</div>`;
+    div.innerHTML = Object.entries(STAGE_COLOR).map(([key, color]) =>
+      `<div><span class="legend-dot" style="background:${color}"></span>${STAGE_LABEL[key]}</div>`
+    ).join('');
     return div;
   };
   legend.addTo(map);
@@ -154,84 +160,50 @@ function renderMarkers() {
   markers = [];
 
   const stateVal = document.getElementById('stateFilter').value;
-  const statusBtn = document.querySelector('.status-btn.active');
-  const statusVal = statusBtn ? statusBtn.dataset.status : 'all';
+  const stageBtn = document.querySelector('.stage-btn.active');
+  const stageVal = stageBtn ? stageBtn.dataset.stage : 'all';
 
   facilities.forEach(f => {
-    const mapped = STATUS_MAP[f.status] || 'cancelled';
-    if (mapped === 'cancelled') return;
-    if (stateVal !== 'all' && f.location.state !== stateVal) return;
-    if (statusVal !== 'all' && mapped !== statusVal) return;
+    const mapped = STAGE_MAP[f.stage] || 'stopped';
+    if (!f.lat || !f.lon) return;
+    if (stateVal !== 'all' && f.state !== stateVal) return;
+    if (stageVal !== 'all' && mapped !== stageVal) return;
 
-    const color = STATUS_COLOR[mapped];
-    const m = L.marker([f.location.lat, f.location.lon], { icon: markerIcon(color) });
+    const color = STAGE_COLOR[mapped] || '#999';
+    const m = L.marker([f.lat, f.lon], { icon: markerIcon(color) });
     m.on('click', () => showDetail(f));
     m.addTo(map);
     markers.push(m);
   });
 }
 
-function fmtMoney(n) {
-  if (!n) return null;
-  if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'B';
-  if (n >= 1e6) return '$' + (n / 1e6).toFixed(0) + 'M';
-  return '$' + n.toLocaleString();
-}
-
-function fmtMw(obj) {
-  if (!obj) return null;
-  const v = obj.planned || obj.operational || obj.underConstruction;
-  if (!v) return null;
-  return v + ' MW';
-}
-
 function showDetail(f) {
-  const mapped = STATUS_MAP[f.status] || 'cancelled';
+  const mapped = STAGE_MAP[f.stage] || 'stopped';
   const el = document.getElementById('detail');
   document.getElementById('no-detail').style.display = 'none';
 
-  const loc = f.location;
-  const county = loc.county ? loc.county + ' County, ' : '';
-  const city = loc.city || '';
-  const locStr = city + (city && county ? ', ' : '') + county + (loc.state || '');
+  let metaHtml = `<span>${escHtml(f.cityCounty)}, ${escHtml(f.state)}</span>`;
 
-  const mw = fmtMw(f.capacityMw);
-  const inv = fmtMoney(f.investmentUsd);
-
-  let metaHtml = `<span>${locStr}</span>`;
-  if (mw) metaHtml += `<span>${mw}</span>`;
-  if (inv) metaHtml += `<span>${inv}</span>`;
-  if (f.announcedDate) metaHtml += `<span>Announced ${f.announcedDate}</span>`;
-
-  let timelineHtml = '';
-  if (f.statusHistory && f.statusHistory.length) {
-    timelineHtml = '<h3>Timeline</h3><ul class="timeline">' +
-      f.statusHistory.map(h =>
-        `<li><span class="date">${h.date}</span> &mdash; ${escHtml(h.note || STATUS_LABEL[STATUS_MAP[h.status]] || h.status)}</li>`
-      ).join('') + '</ul>';
+  let regHtml = '';
+  if (f.regulatoryBody) {
+    regHtml = `<h3>Regulatory Body</h3><p class="regulatory">${escHtml(f.regulatoryBody)}</p>`;
   }
 
   let sourcesHtml = '';
   if (f.sources && f.sources.length) {
     sourcesHtml = '<h3>Related News</h3><ul class="sources-list">' +
-      f.sources.map(s =>
-        `<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener">${escHtml(s.label || 'Source')}</a> <span class="pub">${escHtml(s.publisher || '')}</span></li>`
-      ).join('') + '</ul>';
-  }
-
-  let communityHtml = '';
-  if (f.community && f.community.notes) {
-    communityHtml = `<h3>Community</h3><p class="notes">${escHtml(f.community.notes)}</p>`;
+      f.sources.map(s => {
+        const domain = s.url.replace(/^https?:\/\//, '').replace(/\/.*/, '');
+        return `<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener">${escHtml(s.label || domain)}</a></li>`;
+      }).join('') + '</ul>';
   }
 
   el.innerHTML =
     `<h2>${escHtml(f.name)}</h2>` +
-    `<div class="operator">${escHtml(f.operator || '')}</div>` +
-    `<span class="badge badge-${mapped}">${STATUS_LABEL[mapped]}</span>` +
+    (f.developer ? `<div class="developer">${escHtml(f.developer)}</div>` : '') +
+    `<span class="badge badge-${mapped}">${STAGE_LABEL[mapped]}</span>` +
     `<div class="meta">${metaHtml}</div>` +
-    (f.notes ? `<p class="notes">${escHtml(f.notes)}</p>` : '') +
-    timelineHtml +
-    communityHtml +
+    regHtml +
     sourcesHtml;
 
   el.classList.add('open');
@@ -249,18 +221,18 @@ function escAttr(s) {
 
 document.getElementById('stateFilter').addEventListener('change', renderMarkers);
 
-document.querySelectorAll('.status-btn').forEach(btn => {
+document.querySelectorAll('.stage-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.status-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.stage-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     renderMarkers();
   });
 });
 
-fetch('data/compute-atlas-facilities.json')
+fetch('data/dcw-facilities.json')
   .then(r => r.json())
   .then(data => {
-    facilities = data.filter(f => f.facilityType === 'data_center');
+    facilities = data;
     initMap();
     renderMarkers();
   });
