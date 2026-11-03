@@ -14,13 +14,12 @@
     --cream: #F3EDE0;
     --warm-light: #EFE3D7;
     --dark: #2B2B26;
-    --proposed: #2ecc40;
-    --permitted: #ff9800;
-    --construction: #e74c3c;
-    --operational: #8e44ad;
-    --stalled: #95a5a6;
-    --cancelled: #bdc3c7;
-    --unknown: #7f8c8d;
+    --c-proposed: #2ecc40;
+    --c-approved: #ff9800;
+    --c-active: #e74c3c;
+    --c-operating: #8e44ad;
+    --c-stopped: #95a5a6;
+    --c-policy: #3498db;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--cream); color: var(--dark); }
@@ -30,9 +29,9 @@
 
   #intro { max-width: 900px; margin: 0 auto; padding: 20px 20px 0; }
   #intro p { font-size: 0.9rem; line-height: 1.65; color: var(--dark); margin-bottom: 10px; }
-  #intro .legend-explain { display: flex; flex-wrap: wrap; gap: 14px; margin: 10px 0 6px; font-size: 0.84rem; }
-  #intro .legend-explain .item { display: flex; align-items: center; gap: 5px; }
-  #intro .legend-explain .dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+  #intro .legend-explain { display: flex; flex-wrap: wrap; gap: 12px 20px; margin: 10px 0 6px; font-size: 0.84rem; }
+  #intro .legend-explain .item { display: flex; align-items: baseline; gap: 5px; }
+  #intro .legend-explain .dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; position: relative; top: 1px; }
   #intro .hint { font-size: 0.84rem; color: var(--sage); font-style: italic; margin-top: 4px; }
 
   #controls { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; background: var(--warm-light); border-bottom: 1px solid #d9cfc3; align-items: center; }
@@ -49,18 +48,17 @@
   #detail { display: none; max-width: 900px; margin: 16px auto; padding: 20px 24px; background: var(--warm-light); border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,.06); }
   #detail.open { display: block; }
   #detail h2 { font-size: 1.15rem; margin-bottom: 2px; color: var(--navy); }
-  #detail .operator { color: var(--sage); font-size: 0.9rem; margin-bottom: 8px; }
+  #detail .developer { color: var(--sage); font-size: 0.9rem; margin-bottom: 8px; }
   .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: .4px; }
-  .badge-proposed       { background: var(--proposed); }
-  .badge-permitted      { background: var(--permitted); }
-  .badge-under_construction { background: var(--construction); }
-  .badge-operational    { background: var(--operational); }
-  .badge-stalled        { background: var(--stalled); }
-  .badge-cancelled      { background: var(--cancelled); color: #555; }
-  .badge-unknown        { background: var(--unknown); }
+  .badge-Proposed  { background: var(--c-proposed); }
+  .badge-Approved  { background: var(--c-approved); }
+  .badge-Active    { background: var(--c-active); }
+  .badge-Operating { background: var(--c-operating); }
+  .badge-Stopped   { background: var(--c-stopped); }
+  .badge-Policy    { background: var(--c-policy); }
   #detail .meta { margin: 10px 0; font-size: 0.9rem; color: var(--sage); }
   #detail .meta span { margin-right: 18px; }
-  #detail .notes { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
+  #detail .description { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
   #detail .regulatory { margin: 12px 0; line-height: 1.6; font-size: 0.92rem; }
 
   #detail h3 { font-size: 0.95rem; margin: 16px 0 6px; border-bottom: 1px solid #c5b9a8; padding-bottom: 4px; color: var(--navy); }
@@ -70,10 +68,11 @@
   .timeline .date { font-weight: 600; }
 
   .sources-list { list-style: none; padding-left: 0; }
-  .sources-list li { padding: 4px 0; font-size: 0.88rem; }
+  .sources-list li { padding: 5px 0; font-size: 0.88rem; line-height: 1.4; }
   .sources-list a { color: var(--rust); text-decoration: none; }
   .sources-list a:hover { text-decoration: underline; }
-  .sources-list .pub { color: var(--sage); font-size: 0.82rem; }
+  .sources-list .outlet { color: var(--sage); font-size: 0.82rem; }
+  .sources-list .summary { display: block; color: var(--dark); font-size: 0.82rem; margin-top: 2px; }
 
   #no-detail { text-align: center; padding: 32px 16px; color: var(--sage); font-size: 0.95rem; }
 
@@ -93,14 +92,15 @@
 <header><h1>Data Center Tracker: Alabama and Georgia</h1></header>
 
 <div id="intro">
-  <p>This map tracks proposed, permitted, and active data center developments across Alabama and Georgia. Our dataset combines facility records from <a href="https://www.compute-atlas.com" style="color:var(--rust);">Compute Atlas</a> (an open, CC-BY-4.0 licensed database) with original research by our team, including public filings, zoning records, regulatory approvals, and local news coverage.</p>
-  <p>Each dot on the map represents a single data center project. The color indicates its current stage in the development pipeline:</p>
+  <p>This map tracks data center developments and related policy actions across Alabama and Georgia. Our dataset combines facility records from <a href="https://www.compute-atlas.com" style="color:var(--rust);">Compute Atlas</a> (CC-BY-4.0) with original research including public filings, zoning records, regulatory approvals, and local news coverage.</p>
+  <p>Each dot represents a project or policy action. The color indicates its current phase:</p>
   <div class="legend-explain">
-    <div class="item"><span class="dot" style="background:#2ecc40;"></span> <strong>Proposed</strong> &mdash; announced, filed, or land acquired; no approval yet</div>
-    <div class="item"><span class="dot" style="background:#ff9800;"></span> <strong>Permitted</strong> &mdash; zoning or incentive approval granted</div>
-    <div class="item"><span class="dot" style="background:#e74c3c;"></span> <strong>Under Construction</strong> &mdash; active building confirmed by sources</div>
-    <div class="item"><span class="dot" style="background:#8e44ad;"></span> <strong>Operational</strong> &mdash; facility is live and serving workloads</div>
-    <div class="item"><span class="dot" style="background:#95a5a6;"></span> <strong>Stalled / Paused</strong> &mdash; development stopped or on hold</div>
+    <div class="item"><span class="dot" style="background:var(--c-proposed);"></span> <strong>Proposed</strong> &mdash; announced, filed, or under review</div>
+    <div class="item"><span class="dot" style="background:var(--c-approved);"></span> <strong>Approved</strong> &mdash; zoning or permits granted, not yet building</div>
+    <div class="item"><span class="dot" style="background:var(--c-active);"></span> <strong>Active</strong> &mdash; under construction</div>
+    <div class="item"><span class="dot" style="background:var(--c-operating);"></span> <strong>Operating</strong> &mdash; in service</div>
+    <div class="item"><span class="dot" style="background:var(--c-stopped);"></span> <strong>Stopped</strong> &mdash; denied, withdrawn, paused, or moratorium</div>
+    <div class="item"><span class="dot" style="background:var(--c-policy);"></span> <strong>Policy</strong> &mdash; ordinance or regulatory action</div>
   </div>
   <p class="hint">Click any marker to see the project name, developer, location, regulatory body, capacity and investment figures (where available), a timeline of key milestones, and links to original news sources.</p>
 </div>
@@ -112,13 +112,14 @@
     <option value="AL">Alabama</option>
     <option value="GA">Georgia</option>
   </select>
-  <label>Status:</label>
-  <button class="status-btn active" data-status="all">All</button>
-  <button class="status-btn" data-status="proposed">Proposed</button>
-  <button class="status-btn" data-status="permitted">Permitted</button>
-  <button class="status-btn" data-status="under_construction">Construction</button>
-  <button class="status-btn" data-status="operational">Operational</button>
-  <button class="status-btn" data-status="stalled">Stalled</button>
+  <label>Phase:</label>
+  <button class="phase-btn active" data-phase="all">All</button>
+  <button class="phase-btn" data-phase="Proposed">Proposed</button>
+  <button class="phase-btn" data-phase="Approved">Approved</button>
+  <button class="phase-btn" data-phase="Active">Active</button>
+  <button class="phase-btn" data-phase="Operating">Operating</button>
+  <button class="phase-btn" data-phase="Stopped">Stopped</button>
+  <button class="phase-btn" data-phase="Policy">Policy</button>
 </div>
 
 <div id="map"></div>
@@ -131,24 +132,13 @@
 </footer>
 
 <script>
-const STATUS_COLOR = {
-  proposed: '#2ecc40',
-  permitted: '#ff9800',
-  under_construction: '#e74c3c',
-  operational: '#8e44ad',
-  stalled: '#95a5a6',
-  cancelled: '#bdc3c7',
-  unknown: '#7f8c8d'
-};
-
-const STATUS_LABEL = {
-  proposed: 'Proposed',
-  permitted: 'Permitted',
-  under_construction: 'Under Construction',
-  operational: 'Operational',
-  stalled: 'Stalled / Paused',
-  cancelled: 'Cancelled',
-  unknown: 'Unknown'
+const PHASE_COLOR = {
+  Proposed:  '#2ecc40',
+  Approved:  '#ff9800',
+  Active:    '#e74c3c',
+  Operating: '#8e44ad',
+  Stopped:   '#95a5a6',
+  Policy:    '#3498db'
 };
 
 function markerIcon(color) {
@@ -160,7 +150,7 @@ function markerIcon(color) {
   });
 }
 
-let map, markers = [], facilities = [];
+let map, markers = [], records = [];
 
 function initMap() {
   map = L.map('map').setView([33.0, -85.5], 7);
@@ -172,9 +162,8 @@ function initMap() {
   const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'legend');
-    const show = ['proposed','permitted','under_construction','operational','stalled'];
-    div.innerHTML = show.map(s =>
-      `<div><span class="legend-dot" style="background:${STATUS_COLOR[s]}"></span>${STATUS_LABEL[s]}</div>`
+    div.innerHTML = Object.entries(PHASE_COLOR).map(([phase, color]) =>
+      `<div><span class="legend-dot" style="background:${color}"></span>${phase}</div>`
     ).join('');
     return div;
   };
@@ -186,19 +175,18 @@ function renderMarkers() {
   markers = [];
 
   const stateVal = document.getElementById('stateFilter').value;
-  const statusBtn = document.querySelector('.status-btn.active');
-  const statusVal = statusBtn ? statusBtn.dataset.status : 'all';
+  const phaseBtn = document.querySelector('.phase-btn.active');
+  const phaseVal = phaseBtn ? phaseBtn.dataset.phase : 'all';
 
-  facilities.forEach(f => {
-    const st = f.status || 'unknown';
-    if (st === 'cancelled') return;
-    if (!f.location || !f.location.lat || !f.location.lon) return;
-    if (stateVal !== 'all' && f.location.state !== stateVal) return;
-    if (statusVal !== 'all' && st !== statusVal) return;
+  records.forEach(r => {
+    const phase = r.map_phase || 'Proposed';
+    if (!r.lat || !r.lon) return;
+    if (stateVal !== 'all' && r.state !== stateVal) return;
+    if (phaseVal !== 'all' && phase !== phaseVal) return;
 
-    const color = STATUS_COLOR[st] || STATUS_COLOR.unknown;
-    const m = L.marker([f.location.lat, f.location.lon], { icon: markerIcon(color) });
-    m.on('click', () => showDetail(f));
+    const color = PHASE_COLOR[phase] || '#7f8c8d';
+    const m = L.marker([r.lat, r.lon], { icon: markerIcon(color) });
+    m.on('click', () => showDetail(r));
     m.addTo(map);
     markers.push(m);
   });
@@ -211,70 +199,62 @@ function fmtMoney(n) {
   return '$' + n.toLocaleString();
 }
 
-function fmtMw(obj) {
-  if (!obj) return null;
-  const v = obj.planned || obj.operational || obj.underConstruction;
-  if (!v) return null;
-  return v + ' MW';
-}
-
-function showDetail(f) {
-  const st = f.status || 'unknown';
+function showDetail(r) {
+  const phase = r.map_phase || 'Proposed';
   const el = document.getElementById('detail');
   document.getElementById('no-detail').style.display = 'none';
 
-  const loc = f.location || {};
-  const county = loc.county ? loc.county + ' County' : '';
-  const city = loc.city || '';
-  const parts = [city, county, loc.state].filter(Boolean);
-  const locStr = parts.join(', ');
-
-  const mw = fmtMw(f.capacityMw);
-  const inv = fmtMoney(f.investmentUsd);
+  const locParts = [r.locality || r.city, r.state].filter(Boolean);
+  const locStr = locParts.join(', ');
 
   let metaHtml = `<span>${escHtml(locStr)}</span>`;
-  if (mw) metaHtml += `<span>${mw}</span>`;
-  if (inv) metaHtml += `<span>${inv}</span>`;
-  if (f.announcedDate) metaHtml += `<span>Announced ${f.announcedDate}</span>`;
+  if (r.capacity_mw) metaHtml += `<span>${r.capacity_mw} MW</span>`;
+  if (r.investment_usd) metaHtml += `<span>${fmtMoney(r.investment_usd)}</span>`;
+  if (r.announced_date) metaHtml += `<span>Announced ${r.announced_date}</span>`;
+  if (r.last_updated) metaHtml += `<span>Updated ${r.last_updated}</span>`;
 
   let regHtml = '';
-  if (f.regulatoryBody) {
-    regHtml = `<h3>Regulatory Body</h3><p class="regulatory">${escHtml(f.regulatoryBody)}</p>`;
+  if (r.regulatory_body) {
+    regHtml = `<h3>Regulatory Body</h3><p class="regulatory">${escHtml(r.regulatory_body)}</p>`;
   }
 
   let timelineHtml = '';
-  if (f.statusHistory && f.statusHistory.length) {
+  if (r.timeline && r.timeline.length) {
     timelineHtml = '<h3>Timeline</h3><ul class="timeline">' +
-      f.statusHistory.map(h =>
-        `<li><span class="date">${h.date}</span> &mdash; ${escHtml(h.note || STATUS_LABEL[h.status] || h.status)}</li>`
-      ).join('') + '</ul>';
-  }
-
-  let sourcesHtml = '';
-  if (f.sources && f.sources.length) {
-    sourcesHtml = '<h3>Related News</h3><ul class="sources-list">' +
-      f.sources.map(s => {
-        const label = s.label || s.url.replace(/^https?:\/\//, '').replace(/\/.*/, '');
-        const pub = s.publisher ? ` <span class="pub">${escHtml(s.publisher)}</span>` : '';
-        return `<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener">${escHtml(label)}</a>${pub}</li>`;
+      r.timeline.map(t => {
+        let text = escHtml(t.event || t.category || '');
+        if (t.url) text = `<a href="${escAttr(t.url)}" target="_blank" rel="noopener" style="color:var(--rust);">${text}</a>`;
+        return `<li><span class="date">${t.date || ''}</span> &mdash; ${text}</li>`;
       }).join('') + '</ul>';
   }
 
-  let communityHtml = '';
-  if (f.community && f.community.notes) {
-    communityHtml = `<h3>Community</h3><p class="notes">${escHtml(f.community.notes)}</p>`;
+  let newsHtml = '';
+  if (r.related_news && r.related_news.length) {
+    newsHtml = '<h3>Related News</h3><ul class="sources-list">' +
+      r.related_news.map(n => {
+        const headline = n.headline || n.summary || n.url.replace(/^https?:\/\//, '').replace(/\/.*/, '');
+        const outlet = n.outlet ? ` <span class="outlet">${escHtml(n.outlet)}</span>` : '';
+        const dateStr = n.date ? ` <span class="outlet">(${n.date})</span>` : '';
+        let summaryHtml = '';
+        if (n.summary && n.summary !== n.headline) {
+          summaryHtml = `<span class="summary">${escHtml(n.summary)}</span>`;
+        }
+        return `<li><a href="${escAttr(n.url)}" target="_blank" rel="noopener">${escHtml(headline)}</a>${outlet}${dateStr}${summaryHtml}</li>`;
+      }).join('') + '</ul>';
   }
 
+  const stageLabel = r.stage ? ` (${escHtml(r.stage)})` : '';
+  const typeLabel = r.record_type === 'policy' ? ' <span style="font-size:0.8rem;color:var(--sage);">[Policy]</span>' : '';
+
   el.innerHTML =
-    `<h2>${escHtml(f.name)}</h2>` +
-    (f.operator ? `<div class="operator">${escHtml(f.operator)}</div>` : '') +
-    `<span class="badge badge-${st}">${STATUS_LABEL[st] || st}</span>` +
+    `<h2>${escHtml(r.name)}${typeLabel}</h2>` +
+    (r.developer && r.developer !== 'N/A' ? `<div class="developer">${escHtml(r.developer)}</div>` : '') +
+    `<span class="badge badge-${phase}">${phase}${stageLabel}</span>` +
     `<div class="meta">${metaHtml}</div>` +
-    (f.notes ? `<p class="notes">${escHtml(f.notes)}</p>` : '') +
+    (r.description ? `<p class="description">${escHtml(r.description)}</p>` : '') +
     regHtml +
     timelineHtml +
-    communityHtml +
-    sourcesHtml;
+    newsHtml;
 
   el.classList.add('open');
   el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -291,18 +271,18 @@ function escAttr(s) {
 
 document.getElementById('stateFilter').addEventListener('change', renderMarkers);
 
-document.querySelectorAll('.status-btn').forEach(btn => {
+document.querySelectorAll('.phase-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.status-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.phase-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     renderMarkers();
   });
 });
 
-fetch('data/combined-facilities.json')
+fetch('data/master_v2.json')
   .then(r => r.json())
   .then(data => {
-    facilities = data.facilities || data;
+    records = data.records || [];
     initMap();
     renderMarkers();
   });
