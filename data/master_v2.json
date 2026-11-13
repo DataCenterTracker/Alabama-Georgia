@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03",
+ "generated": "2026-11-13",
  "records": [
   {
    "id": "4am-development-burkhalter-road-statesboro-ga",
@@ -1879,7 +1879,7 @@
    "investment_usd": 1500000000,
    "announced_date": null,
    "regulatory_body": "Lowndes County Commission; Lowndes County Economic Development Commission",
-   "description": "Project Red Clay is a proposed hyperscale data center campus from Houston- and Seattle-based Cloverleaf Infrastructure on more than 800 acres of farmland in northeast Lowndes County, near the junction of U.S. 80 and Alabama 21 at Burkville, about six miles southwest of Montgomery and along the Selma-to-Montgomery National Historic Trail. Cloverleaf, a speculative developer that assembles powered land for an operator it has not named, has requested 1,500 MW from Alabama Power and describes the project as at least a $1.5 billion investment with more than 1,000 construction workers and 225 to more than 300 permanent jobs at full scale. The county has no planning or zoning authority, so the decision ran through the Lowndes County Commission, which on Oct. 13, 2026 voted 3-2 at a 10-minute regular meeting to approve the project development agreement and a 20-year, 50 percent abatement of non-educational property taxes and construction and equipment sales taxes; the agenda had listed only a resolution to schedule a later special meeting. Estimates of the abatement’s value range from about $1.15 billion (Alabama Reflector) to $2.4 billion (Southern Environmental Law Center); Cloverleaf projects $2.85 billion in local tax revenue over 20 years and pledged $10 million through the Central Alabama Community Foundation. Two residents who live near the site, Marie Barnes and Felicia Williams, sued the commission under the Alabama Open Meetings Act on Oct. 18. The presiding judge recused himself and retired Circuit Judge Collins Pettaway Jr. was appointed; he denied an emergency restraining order on Oct. 21, and when the first hearing opened Oct. 27 he continued it to Dec. 2 at 1:30 p.m. to give the plaintiffs time to find a property-value expert. The commission approved the Oct. 13 minutes 3-2 on Oct. 20 as about 125 residents protested. Cloverleaf says construction will begin in early 2027, and the end user has still not been disclosed.",
+   "description": "Project Red Clay is a planned AI data center campus on farmland in northeast Lowndes County, near the junction of U.S. 80 and Alabama 21 at Burkville, about six miles southwest of Montgomery and along the Selma-to-Montgomery National Historic Trail. The site was assembled by Cloverleaf Infrastructure, a powered-land developer, and on Nov. 4, 2026 Lambda — the San Francisco AI cloud company that calls itself the Superintelligence Cloud — announced it will be the end user. Lambda puts the investment at an estimated $33.1 billion, the largest ever announced in Alabama; Cloverleaf’s agreements with the county commit to at least $16 billion within seven years of the campus entering service. The campus is planned at 1,000 MW with the ability to grow to 1,500 MW, supplied by Alabama Power subject to Public Service Commission approval, on a footprint capped at 2,200 acres unless the county agrees to more. Lambda expects construction to begin in the first quarter of 2027 and run up to five years, with first operations in late 2028, more than 1,000 construction jobs, and 225 full-time jobs; it says it will pay the full cost of power and grid infrastructure and use closed-loop cooling. Because the county has no zoning, approvals ran through the Lowndes County Commission, which on Oct. 13, 2026 voted 3-2 at a 10-minute regular meeting to approve the development agreement and a 20-year, 50 percent abatement of non-educational property taxes and construction and equipment sales taxes, after its economic development commission recommended the deal on Oct. 9. Estimates of the abatement’s value range from about $1.15 billion to $2.79 billion; the companies project $2.85 billion in county revenue through 2049, including more than $1.6 billion for Lowndes County Public Schools, and have committed $10 million to a community fund through the Central Alabama Community Foundation. Two lawsuits are pending in Lowndes County Circuit Court. Residents Marie Barnes and Felicia Williams sued on Oct. 18 under the Open Meetings Act; retired Circuit Judge Collins Pettaway Jr. denied an emergency order on Oct. 21 and continued the first hearing to Dec. 2. On Nov. 3, Protect Lowndes County and the Alabama Rivers Alliance, represented by the Southern Environmental Law Center and NRDC, filed a second suit under the Open Meetings and Open Records Acts asking the court to void the approvals and release county records; the complaint notes the project has requested 100,000 gallons of water a day in a county where many homes lack reliable sewer service.",
    "timeline": [
     {
      "date": "2026-10-13",
@@ -1910,6 +1910,30 @@
      "event": "Hearing continued to Dec. 2 at 1:30 p.m.; defense had not reviewed exhibits and plaintiffs are seeking a property-value expert witness.",
      "category": "Legal",
      "url": "https://www.wsfa.com/2026/10/28/proceedings-begin-lawsuit-accusing-lowndes-county-commission-violating-open-meetings-act-approve-data-center/"
+    },
+    {
+     "date": "2026-11-03",
+     "event": "Protect Lowndes County and the Alabama Rivers Alliance, represented by the Southern Environmental Law Center and NRDC, filed a second lawsuit in Lowndes County Circuit Court asking a judge to void the commission's approval of the development and tax-abatement agreements under the Open Meetings Act and Open Records Act, and to order release of related public records; the complaint says the project has requested 100,000 gallons of water a day.",
+     "category": "Legal",
+     "url": "https://www.alreporter.com/2026/11/06/lowndes-county-commission-sued-for-second-time-over-data-center-tax-break"
+    },
+    {
+     "date": "2026-11-04",
+     "event": "Lambda, the San Francisco AI cloud company, announced it will be the end user of the Red Clay Technology Center Campus, calling it an estimated $33.1 billion investment — the largest ever announced in Alabama — with construction beginning in the first quarter of 2027, a first building by 2028-2030, more than 1,000 construction jobs and 225 full-time jobs; Lambda says it will pay the full cost of power and grid infrastructure, use closed-loop cooling, and that Alabama Power supply is subject to PSC approval.",
+     "category": "Developer announcement",
+     "url": "https://www.wsfa.com/2026/11/04/anchor-company-named-project-red-clay-data-center-lowndes-county/"
+    },
+    {
+     "date": "2026-11-04",
+     "event": "Lambda's announcement projects more than $2.8 billion in local tax revenue through 2049, including more than $1.6 billion for Lowndes County Public Schools, with combined state and local revenue of $3.4 billion; Lambda and Cloverleaf are putting $10 million into a community benefits fund through the Central Alabama Community Foundation.",
+     "category": "Developer announcement",
+     "url": "https://lambda.com/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center"
+    },
+    {
+     "date": "2026-11-05",
+     "event": "Trade press reports the campus is planned at 1 GW with potential to reach 1.5 GW and first operations in late 2028; Cloverleaf's agreements commit to at least $16 billion of investment within seven years of the placed-in-service date.",
+     "category": "Developer announcement",
+     "url": "https://www.datacenterdigest.net/lambda-takes-over-1gw-project-red-clay-data-center-campus-in-alabama/"
     }
    ],
    "related_news": [
@@ -2040,9 +2064,41 @@
      "summary": "1,500 MW requested from Alabama Power.",
      "date": null,
      "needs_headline": true
+    },
+    {
+     "url": "https://www.alreporter.com/2026/11/06/lowndes-county-commission-sued-for-second-time-over-data-center-tax-break",
+     "outlet": "Alabama Political Reporter",
+     "headline": "Lowndes County Commission sued for second time over data center tax break",
+     "summary": "Protect Lowndes County and the Alabama Rivers Alliance filed a second lawsuit to void the commission's approval under the Open Meetings and Open Records Acts.",
+     "date": "2026-11-06",
+     "needs_headline": false
+    },
+    {
+     "url": "https://www.wsfa.com/2026/11/04/anchor-company-named-project-red-clay-data-center-lowndes-county/",
+     "outlet": "WSFA 12",
+     "headline": "Anchor company named for Project Red Clay data center in Lowndes County",
+     "summary": "Lambda announced as end user; estimated $33.1 billion investment, construction to begin Q1 2027.",
+     "date": "2026-11-04",
+     "needs_headline": false
+    },
+    {
+     "url": "https://lambda.com/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
+     "outlet": "Lambda",
+     "headline": "Lambda to invest $33 billion in Alabama with new data center",
+     "summary": "Lambda projects $2.8B in local tax revenue through 2049, including $1.6B for Lowndes County schools; $10M community benefits fund.",
+     "date": "2026-11-04",
+     "needs_headline": false
+    },
+    {
+     "url": "https://www.datacenterdigest.net/lambda-takes-over-1gw-project-red-clay-data-center-campus-in-alabama/",
+     "outlet": "Data Center Digest",
+     "headline": "Lambda takes over 1GW Project Red Clay data center campus in Alabama",
+     "summary": "Campus planned at 1 GW with potential to reach 1.5 GW; Cloverleaf commits at least $16B within seven years.",
+     "date": "2026-11-05",
+     "needs_headline": false
     }
    ],
-   "last_updated": "2026-10-28"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "construction-partners-dothan-al",
@@ -2779,7 +2835,7 @@
    "stage": "Operational",
    "map_phase": "Operating",
    "capacity_mw": 13.5,
-   "investment_usd": null,
+   "investment_usd": 35000000,
    "announced_date": null,
    "regulatory_body": "Alabama Department of Commerce; City of Huntsville",
    "description": "DC BLOX Huntsville Data Center is a data center operating in Huntsville, Madison County, AL, developed by DC BLOX. The project represents 13.5 MW of planned capacity. Approvals run through the Alabama Department of Commerce; City of Huntsville. 5 MW, announced Nov. 2024 alongside Montgomery.",
@@ -2818,7 +2874,7 @@
      "needs_headline": true
     }
    ],
-   "last_updated": null
+   "last_updated": "2026-11-13"
   },
   {
    "id": "dc-blox-montgomery-al",
@@ -3021,7 +3077,7 @@
    "investment_usd": 371500000,
    "announced_date": "2025-01",
    "regulatory_body": "Columbiana City Council",
-   "description": "Digi Power X is building a modular AI data center in Columbiana, in Shelby County, using its ARMS 200 prefabricated units. The first module has been operating since May 2026, Phase 1 is expected to be complete in December 2026 and Phase 2 in March 2027. In October 2026 the company secured a $200 million debt financing commitment, syndicated by Goldman Sachs, to fund the Alabama facility. Columbiana adopted a data center ordinance in 2026 to govern the project and any future proposals.",
+   "description": "Digi Power X is building a modular AI data center in Columbiana, in Shelby County, using its ARMS 200 prefabricated units. The first module has been operating since May 2026, Phase 1 is expected to be complete in December 2026 and Phase 2 in March 2027. In October 2026 the company secured a $200 million debt financing commitment, syndicated by Goldman Sachs, to fund the Alabama facility. Columbiana adopted a data center ordinance in 2026 to govern the project and any future proposals. AI tenant is Cerebras Systems; $3.5M community impact payment to the city; target opening 2027.",
    "timeline": [
     {
      "date": "2025-01",
@@ -3124,7 +3180,7 @@
      "needs_headline": true
     }
    ],
-   "last_updated": "2026-10-28"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "digital-realty-atl11-ga",
@@ -4214,7 +4270,7 @@
    "facility_type": "data_center",
    "stage": "Operational",
    "map_phase": "Operating",
-   "capacity_mw": null,
+   "capacity_mw": 143,
    "investment_usd": 1500000000,
    "announced_date": "2015-06-24",
    "regulatory_body": "Jackson County Development Authority; TVA; Alabama Department of Commerce",
@@ -4327,7 +4383,7 @@
      "needs_headline": true
     }
    ],
-   "last_updated": "2026-10-22"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "google-lagrange-ga",
@@ -5664,7 +5720,7 @@
    "investment_usd": null,
    "announced_date": "2025-09-30",
    "regulatory_body": "Birmingham City Council; Zoning Board of Adjustment; Oxmoor Steering Committee",
-   "description": "Nebius, the Amsterdam-based AI cloud company, is building its first U.S. AI factory, BHM01, on a wooded site in Birmingham’s Oxmoor Valley. The campus is planned for about 300 MW in its first phase on roughly 470 acres, and Nebius has said it could invest more than $1 billion. Construction is running six days a week, 12 hours a day. The project has drawn four lawsuits: a suit by the Sansome couple whose home abuts the site, an Oxmoor Valley homeowners’ class action, a challenge by the Greater Birmingham Humane Society over its neighboring campus, and a fourth separate action. Three of the cases have been partially consolidated. The litigation has focused on how the land changed hands — the site sold three times in a single day, for $17.2 million and then $83.5 million — and in October 2026 plaintiffs sought records and testimony from Iron City Premier Realty, the brokerage founded by Mayor Randall Woodfin’s wife Kendra Woodfin; the city and her attorney objected. Defendants agreed on Oct. 7 to turn over closing documents and on Oct. 20 moved to dismiss the homeowners’ suit. Birmingham’s data center moratorium has since expired and been replaced by an ordinance that sorts facilities into micro, medium and hyperscale tiers and requires hyperscale operators to use closed-loop cooling.",
+   "description": "Nebius, the Amsterdam-based AI cloud company, is building its first U.S. AI factory, BHM01, on a wooded site in Birmingham’s Oxmoor Valley. The campus is planned for about 300 MW in its first phase on roughly 470 acres, and Nebius has said it could invest more than $1 billion. Construction is running six days a week, 12 hours a day. The project has drawn four lawsuits: a suit by the Sansome couple whose home abuts the site, an Oxmoor Valley homeowners’ class action, a challenge by the Greater Birmingham Humane Society over its neighboring campus, and a fourth separate action. Three of the cases have been partially consolidated. The litigation has focused on how the land changed hands — the site sold three times in a single day, for $17.2 million and then $83.5 million — and in October 2026 plaintiffs sought records and testimony from Iron City Premier Realty, the brokerage founded by Mayor Randall Woodfin’s wife Kendra Woodfin; the city and her attorney objected. Defendants agreed on Oct. 7 to turn over closing documents and on Oct. 20 moved to dismiss the homeowners’ suit. Birmingham’s data center moratorium has since expired and been replaced by an ordinance that sorts facilities into micro, medium and hyperscale tiers and requires hyperscale operators to use closed-loop cooling. The litigation has narrowed since: on Oct. 28, 2026 Judge Javan Patton Crayton dismissed Lakeshore Data Center LLC, the short-lived company in the chain of sales that raised the site’s price by $66 million, from the homeowners’ suit and threw out three counts tied to the June 9 regulations, which the city says do not apply because permits were issued earlier. Construction continues under limited work hours, and the fast-tracked question of whether to permanently block the project is set for trial on March 8, 2027.",
    "timeline": [
     {
      "date": "2025-09-30",
@@ -5695,6 +5751,18 @@
      "event": "Defendants filed to dismiss the homeowners’ lawsuit.",
      "category": "Legal",
      "url": null
+    },
+    {
+     "date": "2026-10-28",
+     "event": "Judge Javan Patton Crayton dismissed Lakeshore Data Center LLC — the short-lived company in the chain of land sales that raised the site's price by $66 million and whose address matches Hoar Construction's — from the homeowners' suit, and threw out three counts tied to the June 9 data center regulations, which the city says do not apply because permits were issued earlier.",
+     "category": "Legal",
+     "url": "https://www.wbhm.org/local-news/2026-10-29/judge-releases-shell-company-from-suit-over-birmingham-data-center"
+    },
+    {
+     "date": "2026-08-13",
+     "event": "The judge set the fast-tracked question of whether to permanently block construction for trial on March 8, 2027; construction continues meanwhile.",
+     "category": "Legal",
+     "url": "https://www.wbhm.org/local-news/2026-08-14/judge-hits-pause-on-hearings-in-lawsuit-challenging-oxmoor-valley-data-center"
     }
    ],
    "related_news": [
@@ -5809,9 +5877,25 @@
      "summary": "Three lawsuits pending; judge paused hearings in one for about seven months (Aug. 2026).",
      "date": null,
      "needs_headline": true
+    },
+    {
+     "url": "https://www.wbhm.org/local-news/2026-10-29/judge-releases-shell-company-from-suit-over-birmingham-data-center",
+     "outlet": "WBHM",
+     "headline": "Judge releases shell company from suit over Birmingham data center",
+     "summary": "Judge dismissed Lakeshore Data Center LLC from the homeowners' lawsuit and threw out three counts tied to June 9 regulations.",
+     "date": "2026-10-29",
+     "needs_headline": false
+    },
+    {
+     "url": "https://www.wbhm.org/local-news/2026-08-14/judge-hits-pause-on-hearings-in-lawsuit-challenging-oxmoor-valley-data-center",
+     "outlet": "WBHM",
+     "headline": "Judge hits pause on hearings in lawsuit challenging Oxmoor Valley data center",
+     "summary": "Trial on whether to permanently block construction set for March 8, 2027.",
+     "date": "2026-08-14",
+     "needs_headline": false
     }
    ],
-   "last_updated": "2026-10-28"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "nextera-bellefonte-solar-hollywood-al",
@@ -8249,7 +8333,8 @@
    "id": "swift-willow-westover-al",
    "name": "Swift Willow Westover Data Center Campus",
    "aliases": [
-    "Westover Data Center Campus"
+    "Westover Data Center Campus",
+    "Swift Data Development"
    ],
    "record_type": "project",
    "state": "AL",
@@ -8267,13 +8352,31 @@
    "investment_usd": null,
    "announced_date": null,
    "regulatory_body": "Westover City Council",
-   "description": "Swift Willow proposed a data center campus in Westover, in Shelby County east of Birmingham, on land the developer assembled near the town’s commercial corridor. Residents organized against the plan through the summer of 2026, and the Westover City Council adopted a citywide data center moratorium. The developer’s application has not advanced since the moratorium took effect, and the project is paused.",
+   "description": "Swift Willow Property LLC, founded by Hugh Williamson, bought the roughly 437-acre former Westervelt property on U.S. 280 in Westover, in Shelby County east of Birmingham, in June 2025 for about $6.6 million, two months after the city’s planning commission added data centers as a use permitted by right in its Employment Center-Industrial district; the purchase was contingent on that zoning. Working with developer AGP, the company has shown a conceptual plan for up to 14 buildings, with a first phase of at least two single-story buildings on 124 acres, and says existing utilities reach the site. The tenant has not been disclosed. After a memorandum of understanding with the developer fell through and residents organized against the plan, the Westover City Council unanimously adopted a six-month data center moratorium on Aug. 18, 2026 that covers the project; it expires Feb. 18, 2027. Two days later, hundreds packed New Life Church for a developer-hosted town hall at which Swift Willow attorney Greg DeBacker called the potential tax revenue transformational and residents urged the city to keep the property as one of the county’s last large green spaces. Mayor Bobby Pardue has said he has not signed a nondisclosure agreement and would not. The city is using the moratorium to draft requirements on water use, buffers, noise, lighting and power infrastructure.",
    "timeline": [
     {
      "date": "2026-08",
      "event": "Developers presented plans for at least two data center buildings on 124 acres of the site at an August 2026 town hall; the Westover City Council then unanimously approved a six-month moratorium on data centers covering this proposal and any others.",
      "category": "Status: proposed",
      "url": null
+    },
+    {
+     "date": "2026-08-18",
+     "event": "The Westover City Council unanimously approved a six-month moratorium on data centers covering the Swift Willow site and any other proposal, two days before the developer's town hall; it expires Feb. 18, 2027.",
+     "category": "Moratorium / local rules",
+     "url": "https://abc3340.com/news/local/westover-city-council-unanimously-approves-6-month-moratorium-on-data-centers"
+    },
+    {
+     "date": "2026-08-20",
+     "event": "Hundreds packed New Life Church for a developer-hosted town hall; Swift Willow attorney Greg DeBacker showed plans for at least two buildings on 124 acres of the 450-plus-acre site on U.S. 280, said existing utilities are in place, and called the potential tax revenue transformational, while residents urged the city not to allow it.",
+     "category": "Community",
+     "url": "https://www.wbrc.com/2026/08/21/westover-residents-hear-developers-during-data-center-town-hall/"
+    },
+    {
+     "date": "2026-08-22",
+     "event": "ABC 33/40 traced the project's history: Swift Willow bought the former Westervelt property in June 2025 after the city added data centers as a permitted use in its Employment Center-Industrial district in April 2025; the purchase was contingent on the zoning.",
+     "category": "Background",
+     "url": "https://abc3340.com/news/abc-3340-news-iteam/how-did-westovers-proposed-data-center-get-here-records-show-the-timeline"
     }
    ],
    "related_news": [
@@ -8308,9 +8411,17 @@
      "summary": "Westover City Council unanimously approved a six-month data center moratorium in Aug. 2026.",
      "date": null,
      "needs_headline": true
+    },
+    {
+     "url": "https://abc3340.com/news/local/westover-city-council-unanimously-approves-6-month-moratorium-on-data-centers",
+     "outlet": "ABC 33/40",
+     "headline": "Westover City Council unanimously approves 6-month moratorium on data centers",
+     "summary": "Six-month moratorium covering the Swift Willow site; expires Feb. 18, 2027.",
+     "date": "2026-08-18",
+     "needs_headline": false
     }
    ],
-   "last_updated": "2026-10-28"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "switch-atlanta-the-keep-ga",
@@ -9793,19 +9904,31 @@
    "location_approximate": true,
    "developer": "Western Hospitality Partners",
    "facility_type": "data_center",
-   "stage": "Proposed",
-   "map_phase": "Proposed",
-   "capacity_mw": null,
+   "stage": "Approved, Not Built",
+   "map_phase": "Approved",
+   "capacity_mw": 500,
    "investment_usd": 6000000000,
    "announced_date": null,
    "regulatory_body": "Childersburg City Council",
-   "description": "Western Hospitality proposes a data center campus in Childersburg, in Talladega County, on part of the former Alabama Army Ammunition Plant that the city controls as an industrial park. In October 2026 the city was weighing the sale of more than 1,000 acres at about $35,000 an acre to a data center buyer that is working with Alabama Power on a power supply. No zoning action or development agreement has been approved.",
+   "description": "Western Hospitality Partners, through its affiliate WHP Development, proposes a $6 billion, 500 MW hyperscale data center campus on 486 acres of the Childersburg Industrial Park in Talladega County, part of the 1,337-acre former Alabama Ordnance Works where the Manhattan Project produced heavy water. Mayor Ken Wesson, who signed a confidentiality agreement with the developer, said the campus would use glycol-based closed-loop cooling and could create nearly 2,000 construction jobs and more than 200 permanent positions; the developer has committed about $6 million toward transmission upgrades. The City Council unanimously amended its zoning ordinance on Jan. 27, 2026 to allow data centers within a planned unit development at the park, and the city signed a purchase agreement for the 486 acres worth about $17 million, contingent on environmental assessment of the former military land. On Oct. 6, 2026 the council, acting as the Childersburg Land Redevelopment Authority, voted to surplus 1,337.1 acres in the park to Old Town No. 109 LLC, the development entity, at roughly $35,000 an acre, with Alabama Power working on the power supply. The project is targeted to open in 2029.",
    "timeline": [
     {
      "date": "2026-10-20",
      "event": "City weighing sale of 1,000+ acres at the former Alabama Army Ammunition Plant site at $35,000/acre to a data center buyer working with Alabama Power on power.",
      "category": "New proposal",
      "url": null
+    },
+    {
+     "date": "2026-01-27",
+     "event": "Childersburg City Council unanimously amended its zoning ordinance to allow data centers inside a planned unit development at the industrial park; Mayor Ken Wesson said the developer is WHP Development, that he signed a confidentiality agreement, and that the city has a purchase agreement for 486 acres worth about $17 million.",
+     "category": "Approval / vote",
+     "url": "https://wbhm.org/2026/this-small-alabama-town-was-part-of-the-manhattan-project-now-it-may-host-a-hyperscale-data-center/"
+    },
+    {
+     "date": "2026-10-06",
+     "event": "Acting as the Childersburg Land Redevelopment Authority, the council voted to surplus 1,337.1 acres in the industrial park to Old Town No. 109 LLC, clearing the way for the Western Hospitality Partners hyperscale campus.",
+     "category": "Approval / vote",
+     "url": "https://www.annistonstar.com/the_daily_home/dh_news/data-center-to-locate-in-childersburg-industrial-park-by-council-action/article_49a3f076-9389-4aa5-9c35-64ec52795c5e.html"
     }
    ],
    "related_news": [
@@ -9824,9 +9947,25 @@
      "summary": "Reported by WBHM.",
      "date": null,
      "needs_headline": true
+    },
+    {
+     "url": "https://wbhm.org/2026/this-small-alabama-town-was-part-of-the-manhattan-project-now-it-may-host-a-hyperscale-data-center/",
+     "outlet": "WBHM",
+     "headline": "This small Alabama town was part of the Manhattan Project. Now it may host a hyperscale data center",
+     "summary": "City Council amended zoning to allow data centers in the industrial park; purchase agreement for 486 acres worth ~$17M.",
+     "date": "2026-01-27",
+     "needs_headline": false
+    },
+    {
+     "url": "https://www.annistonstar.com/the_daily_home/dh_news/data-center-to-locate-in-childersburg-industrial-park-by-council-action/article_49a3f076-9389-4aa5-9c35-64ec52795c5e.html",
+     "outlet": "The Daily Home",
+     "headline": "Data center to locate in Childersburg Industrial Park by council action",
+     "summary": "Council voted to surplus 1,337.1 acres to Old Town No. 109 LLC for the hyperscale campus.",
+     "date": "2026-10-06",
+     "needs_headline": false
     }
    ],
-   "last_updated": "2026-10-20"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "white-oak-technology-park-columbia-county-ga",
@@ -10045,13 +10184,13 @@
    "aliases": [],
    "record_type": "project",
    "state": "AL",
-   "locality": "Marengo and Hale counties (Black Belt)",
+   "locality": "Near Demopolis (U.S. 80 at Marengo County Road 2), Marengo and Hale counties",
    "city": null,
    "county": null,
    "lat": 32.30625,
    "lon": -87.79807,
    "location_approximate": true,
-   "developer": "Not identified in sources",
+   "developer": "AGP",
    "facility_type": null,
    "stage": "Proposed",
    "map_phase": "Proposed",
@@ -10059,8 +10198,21 @@
    "investment_usd": null,
    "announced_date": null,
    "regulatory_body": "No zoning authority. Marengo and Hale county commissions can act only through tax abatements.",
-   "description": "Proposed Marengo/Hale County data center is a data center proposed in Marengo and Hale counties (Black Belt), AL. Approvals run through the No zoning authority. Marengo and Hale county commissions can act only through tax abatements. Land reportedly being optioned for ~1,000+ acres near Highway 80 and County Road 2 outside Demopolis; Gallion residents' petition has 600+ signatures; forums held in Demopolis and Gallion (July 2026). Developer, size and end user not reported.",
-   "timeline": [],
+   "description": "A data center is proposed on roughly 1,000 acres along U.S. 80 near Marengo County Road 2 outside Demopolis, straddling the Marengo and Hale county line, with buildings planned on about 100 acres. Developer AGP, which is also working on the Westover project in Shelby County, is in the early stages and has not filed a public application; landowners in the area have sold or been approached to sell, and residents have heard that several parcels are also under contract for a new power plant. Because neither county has zoning, there is no local land-use approval to track yet. Residents have held two community forums in Demopolis — at The Hangout on April 30, 2026 and at Wallace Community College on July 30 — organized by Black Belt Women Rising with the Alabama Rivers Alliance and the Southern Environmental Law Center, and are circulating a petition opposing data centers in Demopolis, Gallion and Faunsdale.",
+   "timeline": [
+    {
+     "date": "2026-04-30",
+     "event": "About 100 people attended a town hall at The Hangout in Demopolis hosted by Black Belt Women Rising with the Alabama Rivers Alliance and Southern Environmental Law Center; a rancher said a neighbor sold hundreds of acres off Marengo County Road 2 for a data center on U.S. 80 and that he had turned down an offer for his own land.",
+     "category": "Community",
+     "url": "https://www.blackbeltnewsnetwork.com/news/almost-100-gather-in-demopolis-to-hear-about-possible-data-center/article_6179be34-de59-4f34-872a-474989abeef4.html"
+    },
+    {
+     "date": "2026-07-30",
+     "event": "A second forum at Wallace Community College drew about 100 residents; a Gallion conservation attorney said the project would cover about 1,000 acres with buildings on roughly 100, and speakers said too little had been disclosed to answer questions about water, noise or power. Residents are circulating a petition opposing data centers in Demopolis, Gallion and Faunsdale.",
+     "category": "Community",
+     "url": "https://www.blackbeltnewsnetwork.com/news/community-forum-draws-100-residents-seeking-answers-on-proposed-black-belt-data-centers/article_3d4cb8b2-44b0-4639-a0c2-cdd46896b57f.html"
+    }
+   ],
    "related_news": [
     {
      "url": "https://www.theloadreport.com/projects/black-belt.html",
@@ -10085,9 +10237,25 @@
      "summary": "Land reportedly being optioned for ~1,000+ acres near Highway 80 and County Road 2 outside Demopolis; Gallion residents' petition has 600+ signatures; forums held in Demopolis and Gallion (July 2026).",
      "date": null,
      "needs_headline": true
+    },
+    {
+     "url": "https://www.blackbeltnewsnetwork.com/news/almost-100-gather-in-demopolis-to-hear-about-possible-data-center/article_6179be34-de59-4f34-872a-474989abeef4.html",
+     "outlet": "Black Belt News Network",
+     "headline": "Almost 100 gather in Demopolis to hear about possible data center",
+     "summary": "Town hall at The Hangout; rancher reported neighbor sold land for data center on U.S. 80.",
+     "date": "2026-04-30",
+     "needs_headline": false
+    },
+    {
+     "url": "https://www.blackbeltnewsnetwork.com/news/community-forum-draws-100-residents-seeking-answers-on-proposed-black-belt-data-centers/article_3d4cb8b2-44b0-4639-a0c2-cdd46896b57f.html",
+     "outlet": "Black Belt News Network",
+     "headline": "Community forum draws 100 residents seeking answers on proposed Black Belt data centers",
+     "summary": "Second forum at Wallace Community College; residents circulating petition opposing data centers.",
+     "date": "2026-07-30",
+     "needs_headline": false
     }
    ],
-   "last_updated": null
+   "last_updated": "2026-11-13"
   },
   {
    "id": "trk-al-trinity-data-center-site-undisclosed",
@@ -10103,19 +10271,25 @@
    "location_approximate": true,
    "developer": "Not identified in sources (a Baxtel page slug references Stream Data Centers; unconfirmed)",
    "facility_type": null,
-   "stage": "Proposed",
-   "map_phase": "Proposed",
+   "stage": "Stopped or Paused",
+   "map_phase": "Stopped",
    "capacity_mw": null,
    "investment_usd": null,
    "announced_date": null,
    "regulatory_body": "Trinity Town Council",
-   "description": "In Trinity, a small town in Morgan County west of Decatur, landowner John Eyster is asking the Town Council to rezone 184.12 acres between Steed Road and Old Trinity Road from agricultural to light and heavy industrial. The owners say they hope to attract a manufacturer, but 141 acres of the same tract are advertised online as an “exceptional site for a data center” and listed on LoopNet as a potential data center site, and Mr. Eyster has declined to say whether data center companies have expressed interest. Trinity adopted a one-year data center moratorium on July 13, 2026 after residents petitioned to block an earlier version of the rezoning. The revised proposal moved the heavy-industrial area farther from homes and added a 50-foot buffer. More than 50 residents attended the Oct. 26 public hearing, the third meeting on the request, and the council tabled Ordinances 2026-02 and 2026-03 until its Nov. 9 meeting to research whether it can attach restrictive conditions to any rezoning.",
+   "description": "In Trinity, a small town in Morgan County west of Decatur, landowner John Eyster and Creek Properties sought to rezone 184.12 acres between Steed Road and Old Trinity Road from agricultural to light and heavy industrial. The owners said they hoped to attract a manufacturer, but 141 acres of the tract were advertised online as an “exceptional site for a data center,” and residents of the neighboring subdivision organized against the request through four consecutive public meetings. Trinity adopted a one-year data center moratorium on July 13, 2026 that runs to June 2027. The owners revised the plan to move the heavy-industrial area farther from homes and add a 50-foot buffer, and the council tabled Ordinances 2026-02 and 2026-03 on Oct. 26 to study conditional rezoning. On Nov. 9, before the council could vote, Mr. Eyster withdrew the application and asked the town to first rewrite its zoning regulations to narrow what is permitted in M-1 and M-2 districts. The council agreed; Mayor Vaughn Goodwin said the rewrite is not expected until early 2027, after which the request could return.",
    "timeline": [
     {
      "date": "2026-10-26",
      "event": "Town Council tabled Ordinances 2026-02 and 2026-03 (rezoning 184.12 acres between Steed Road and Old Trinity Road to light/heavy industrial) until Nov. 9; 141 acres marketed online as a data center site; 50+ residents objected. Town ~3 months into a one-year moratorium.",
      "category": "Approval / vote",
      "url": "https://www.waff.com/2026/10/27/trinity-council-delays-vote-nearly-184-acre-rezoning-request/"
+    },
+    {
+     "date": "2026-11-09",
+     "event": "Before the Town Council could vote, landowner John Eyster withdrew the rezoning application and asked the town to first rewrite its zoning regulations to narrow what is allowed in M-1 and M-2 districts; the council agreed, Mayor Vaughn Goodwin said the rewrite is not expected until early 2027, and the town's data center moratorium runs to June 2027.",
+     "category": "Withdrawn / canceled",
+     "url": "https://www.waff.com/2026/11/10/trinity-data-center-rezoning-request-withdrawn-amid-resident-opposition/"
     }
    ],
    "related_news": [
@@ -10134,9 +10308,17 @@
      "summary": "Trinity adopted a one-year data center moratorium July 13, 2026.",
      "date": null,
      "needs_headline": true
+    },
+    {
+     "url": "https://www.waff.com/2026/11/10/trinity-data-center-rezoning-request-withdrawn-amid-resident-opposition/",
+     "outlet": "WAFF 48",
+     "headline": "Trinity data center rezoning request withdrawn amid resident opposition",
+     "summary": "Landowner withdrew rezoning application; town to rewrite zoning rules before any new request.",
+     "date": "2026-11-10",
+     "needs_headline": false
     }
    ],
-   "last_updated": "2026-10-26"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "trk-al-wilsonville-hyperscale-data-center",
@@ -10154,7 +10336,7 @@
    "facility_type": null,
    "stage": "Proposed",
    "map_phase": "Proposed",
-   "capacity_mw": null,
+   "capacity_mw": 1000,
    "investment_usd": null,
    "announced_date": null,
    "regulatory_body": "Wilsonville Town Council",
@@ -10178,7 +10360,7 @@
      "needs_headline": true
     }
    ],
-   "last_updated": null
+   "last_updated": "2026-11-13"
   },
   {
    "id": "trk-al-athens-data-center-ordinance-conditional-use",
@@ -13750,6 +13932,12 @@
      "event": "Alabama Power filed the tariff implementing the new review process; effective Nov. 23, 2026.",
      "category": "Regulatory",
      "url": "https://insideclimatenews.org/news/23102026/alabamas-new-data-center-rules-still-leave-customers-in-the-dark-critics-say/"
+    },
+    {
+     "date": "2026-11-03",
+     "event": "Voters elected Matt Gentry (Place 1) and Jim Zeigler (Place 2) to the Public Service Commission, which will administer the new data center contract rules taking effect Nov. 23; Tommy Tuberville, who campaigned on ending data center tax breaks and deferring to communities that reject projects, won the governor's race with 51.8 percent.",
+     "category": "Election",
+     "url": "https://www.alreporter.com/2026/11/03/alabama-election-coverage-2026-live-updates"
     }
    ],
    "related_news": [
@@ -13768,9 +13956,17 @@
      "summary": "PSC approved the review process 3-0.",
      "date": "2026-10-06",
      "needs_headline": true
+    },
+    {
+     "url": "https://www.alreporter.com/2026/11/03/alabama-election-coverage-2026-live-updates",
+     "outlet": "Alabama Political Reporter",
+     "headline": "Alabama election coverage 2026: Live updates",
+     "summary": "Gentry and Zeigler elected to PSC; Tuberville wins governor's race campaigning against data center tax breaks.",
+     "date": "2026-11-03",
+     "needs_headline": false
     }
    ],
-   "last_updated": "2026-10-21"
+   "last_updated": "2026-11-13"
   },
   {
    "id": "trk-al-tva-data-center-rate",
@@ -14199,6 +14395,109 @@
     }
    ],
    "last_updated": "2026-10-19"
+  },
+  {
+   "id": "trk-al-helena-data-center-moratorium",
+   "name": "Helena: Data center moratorium (standalone ordinance planned)",
+   "aliases": [],
+   "record_type": "policy",
+   "state": "AL",
+   "locality": "Helena (Shelby County)",
+   "city": "Helena",
+   "county": "Shelby",
+   "lat": 33.2962,
+   "lon": -86.8436,
+   "location_approximate": true,
+   "developer": null,
+   "facility_type": "data_center",
+   "stage": "Stopped or Paused",
+   "map_phase": "Stopped",
+   "capacity_mw": null,
+   "investment_usd": null,
+   "announced_date": "2026-06",
+   "regulatory_body": "Helena City Council",
+   "description": "Helena, in Shelby County south of Birmingham, included data centers in a 180-day development moratorium adopted in June 2026 that also paused new gas stations, auto businesses and dealerships while the city updates its zoning rules. On Nov. 9, 2026 the council amended that moratorium 3-1 to let two commercial projects already in the pipeline proceed, keeping the restriction on data centers in place, and said it is drafting a separate, more detailed standalone data center moratorium to be introduced at an upcoming meeting. No data center has been proposed in the city.",
+   "timeline": [
+    {
+     "date": "2026-06",
+     "event": "City adopted a 180-day moratorium covering data centers and several automotive uses.",
+     "category": "Moratorium / local rules"
+    },
+    {
+     "date": "2026-11-09",
+     "event": "Council amended the moratorium to exempt two pending commercial projects and announced a standalone data center moratorium is being written.",
+     "category": "Moratorium / local rules",
+     "url": "https://abc3340.com/news/local/helena-amends-development-moratorium-clearing-path-for-two-projects-already-in-the-works"
+    }
+   ],
+   "related_news": [
+    {
+     "url": "https://abc3340.com/news/local/helena-amends-development-moratorium-clearing-path-for-two-projects-already-in-the-works",
+     "outlet": "ABC 33/40",
+     "headline": "Helena amends development moratorium, clearing path for two projects already in the works",
+     "summary": "Council amended moratorium to exempt two pending commercial projects; data center restriction remains.",
+     "date": "2026-11-09",
+     "needs_headline": false
+    },
+    {
+     "url": "https://abc3340.com/news/local/helena-weighs-development-exceptions-plans-separate-data-center-moratorium",
+     "outlet": "ABC 33/40",
+     "headline": "Helena plans separate data center moratorium",
+     "summary": "Helena is drafting a standalone data center moratorium separate from the broader development pause.",
+     "date": null,
+     "needs_headline": false
+    }
+   ],
+   "last_updated": "2026-11-13"
+  },
+  {
+   "id": "trk-ga-2026-election-psc-governor",
+   "name": "Georgia: 2026 election — Democrats win PSC majority; Bottoms elected governor",
+   "aliases": [],
+   "record_type": "policy",
+   "state": "GA",
+   "locality": "Statewide",
+   "city": null,
+   "county": null,
+   "lat": 32.7,
+   "lon": -83.45,
+   "location_approximate": true,
+   "developer": null,
+   "facility_type": "data_center",
+   "stage": "",
+   "map_phase": "Policy",
+   "capacity_mw": null,
+   "investment_usd": null,
+   "announced_date": "2026-11-03",
+   "regulatory_body": "Georgia Public Service Commission; Office of the Governor",
+   "description": "On Nov. 3, 2026 Georgia voters gave Democrats a 3-2 majority on the Public Service Commission for the first time in more than two decades, re-electing Peter Hubbard in District 3 (56-44 over former commissioner Fitz Johnson) and electing Shelia Edwards in District 5. The commission regulates Georgia Power’s rates and approves the generation and transmission the utility builds to serve data centers; the Democratic candidates ran on stricter scrutiny of data center contracts and protecting existing customers from those costs. Keisha Lance Bottoms, who campaigned on a temporary statewide pause on new data center construction of six months or longer, was elected governor.",
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "event": "Hubbard and Edwards win; Democrats take PSC majority. Bottoms elected governor.",
+     "category": "Election",
+     "url": "https://www.ajc.com/business/2026/11/southern-co-profits-psc-changes/"
+    }
+   ],
+   "related_news": [
+    {
+     "url": "https://www.ajc.com/business/2026/11/southern-co-profits-psc-changes/",
+     "outlet": "Atlanta Journal-Constitution",
+     "headline": "Southern Co. profits, PSC changes",
+     "summary": "Democrats win 3-2 PSC majority; new commissioners ran on stricter scrutiny of data center contracts.",
+     "date": "2026-11-03",
+     "needs_headline": true
+    },
+    {
+     "url": "https://atlanta.capitalbnews.org/georgia-2026-election-results-winners-in-key-races/",
+     "outlet": "Capital B Atlanta",
+     "headline": "Georgia 2026 election results: Winners in key races",
+     "summary": "Results summary including PSC and gubernatorial races.",
+     "date": "2026-11-03",
+     "needs_headline": false
+    }
+   ],
+   "last_updated": "2026-11-13"
   }
  ],
  "legend": {
